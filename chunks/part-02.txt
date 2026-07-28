@@ -1,0 +1,116 @@
+>
+        <article class="chapter" id="b1-c8" data-title="文字與教育">
+          <div class="chapter-no">01.08</div>
+          <h3>文字與教育</h3>
+          <p>識字、公文、帳務、古文、醫書、地方方言、外地文字與暗號皆是技能。無法閱讀者可請人代讀，但會產生洩密與誤讀風險。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b1-c9" data-title="貨幣與生活成本">
+          <div class="chapter-no">01.09</div>
+          <h3>貨幣與生活成本</h3>
+          <p>主要貨幣為銅錢與銀兩。價格由地區、季節、供需、交通與政治影響，不採固定商店價。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b1-c10" data-title="曆法、季節與節日">
+          <div class="chapter-no">01.10</div>
+          <h3>曆法、季節與節日</h3>
+          <p>世界時間持續前進。季節影響農業、道路、疫病、戰爭與節慶；節日同時是文化活動、商機、政治宣傳與事件窗口。</p><div class='detail-grid'><div class='detail'><h4>設計目的</h4><p>讓世界不只是背景設定，而是能實際限制角色、產生衝突並推動事件的運作規則。</p></div><div class='detail'><h4>玩家如何感受到</h4><p>透過地方法令、物價、人物態度、旅行限制、節慶、語言、身分與日常生活呈現，而不是只放在百科文字中。</p></div><div class='detail'><h4>系統化要求</h4><p>所有重要設定都應對應正式資料、可查詢狀態、事件條件與角色視角，避免 AI 自由改寫。</p></div><div class='detail'><h4>長期演化</h4><p>制度、文化與歷史評價都可因戰爭、改革、玩家組織、輿論和世代更替而改變。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b1-c11" data-title="宗教與民間信仰">
+          <div class="chapter-no">01.11</div>
+          <h3>宗教與民間信仰</h3>
+          <p>寺院、道觀、祖先祭祀、地方神祇與民間禁忌共同存在。系統不直接證實鬼神，但信仰會真實影響人物行為與社會秩序。</p><div class='detail-grid'><div class='detail'><h4>設計目的</h4><p>讓世界不只是背景設定，而是能實際限制角色、產生衝突並推動事件的運作規則。</p></div><div class='detail'><h4>玩家如何感受到</h4><p>透過地方法令、物價、人物態度、旅行限制、節慶、語言、身分與日常生活呈現，而不是只放在百科文字中。</p></div><div class='detail'><h4>系統化要求</h4><p>所有重要設定都應對應正式資料、可查詢狀態、事件條件與角色視角，避免 AI 自由改寫。</p></div><div class='detail'><h4>長期演化</h4><p>制度、文化與歷史評價都可因戰爭、改革、玩家組織、輿論和世代更替而改變。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b1-c12" data-title="歷史記錄與多版本史觀">
+          <div class="chapter-no">01.12</div>
+          <h3>歷史記錄與多版本史觀</h3>
+          <p>官府正史、門派譜牒、民間故事、玩家報館與說書人口述可以對同一件事留下不同版本。</p><div class='detail-grid'><div class='detail'><h4>設計目的</h4><p>讓世界不只是背景設定，而是能實際限制角色、產生衝突並推動事件的運作規則。</p></div><div class='detail'><h4>玩家如何感受到</h4><p>透過地方法令、物價、人物態度、旅行限制、節慶、語言、身分與日常生活呈現，而不是只放在百科文字中。</p></div><div class='detail'><h4>系統化要求</h4><p>所有重要設定都應對應正式資料、可查詢狀態、事件條件與角色視角，避免 AI 自由改寫。</p></div><div class='detail'><h4>長期演化</h4><p>制度、文化與歷史評價都可因戰爭、改革、玩家組織、輿論和世代更替而改變。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article><section class='book-head' id='book-2'><div class='kicker'>第 2 冊</div><h2>第二冊：世界模擬與因果</h2><p>本冊共 13 個正式章節。</p></section>
+        <article class="chapter" id="b2-c1" data-title="單一正史與權威狀態">
+          <div class="chapter-no">02.01</div>
+          <h3>單一正史與權威狀態</h3>
+          <p>同一人物、物品、地點與事件只有一份正式狀態。場景可分流，歷史不可分流。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b2-c2" data-title="世界時間">
+          <div class="chapter-no">02.02</div>
+          <h3>世界時間</h3>
+          <p>建議現實一小時等於遊戲內兩小時。世界日、月、年持續推進，所有期限同時顯示世界時間與現實剩餘時間。</p><div class='detail-grid'><div class='detail'><h4>設計目的</h4><p>讓世界不只是背景設定，而是能實際限制角色、產生衝突並推動事件的運作規則。</p></div><div class='detail'><h4>玩家如何感受到</h4><p>透過地方法令、物價、人物態度、旅行限制、節慶、語言、身分與日常生活呈現，而不是只放在百科文字中。</p></div><div class='detail'><h4>系統化要求</h4><p>所有重要設定都應對應正式資料、可查詢狀態、事件條件與角色視角，避免 AI 自由改寫。</p></div><div class='detail'><h4>長期演化</h4><p>制度、文化與歷史評價都可因戰爭、改革、玩家組織、輿論和世代更替而改變。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b2-c3" data-title="行動時間與占用">
+          <div class="chapter-no">02.03</div>
+          <h3>行動時間與占用</h3>
+          <p>移動、練功、養傷、製作、調查、跟蹤與經營會占用角色時間；角色不能同時處理無限事件。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b2-c4" data-title="離線行程">
+          <div class="chapter-no">02.04</div>
+          <h3>離線行程</h3>
+          <p>玩家下線前可安排趕路、休息、製作、看守與工作，並設定遇襲、盤查、醫療、支出與訪客的預設反應。</p><div class='detail-grid'><div class='detail'><h4>輸入狀態</h4><p>人物身分、位置、需求、關係、已知資訊、情緒、資產、責任與期限。</p></div><div class='detail'><h4>決策方式</h4><p>先由規則列出可執行行動，再依目標、風險、價值觀、關係與資源評估，不讓 AI 任意決定。</p></div><div class='detail'><h4>玩家互動</h4><p>玩家可建立信任、虧欠、恐懼、依賴與立場衝突；單次高說服不能推翻人物長期底線。</p></div><div class='detail'><h4>持續結果</h4><p>人物會記得、轉述、報復、回報、改變行程，也可能因時間、誤解與新資訊更新自己的看法。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b2-c5" data-title="事件總帳">
+          <div class="chapter-no">02.05</div>
+          <h3>事件總帳</h3>
+          <p>所有正式行動先寫入不可任意修改的事件總帳，再更新當前狀態投影。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b2-c6" data-title="直接、延遲與擴散後果">
+          <div class="chapter-no">02.06</div>
+          <h3>直接、延遲與擴散後果</h3>
+          <p>直接後果立即更新；延遲後果進入排程；擴散後果透過人物、資訊、經濟、政治、武力與文化向外傳播。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+   
