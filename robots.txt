@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://monoian.github.io/shanhe-wuming-world-bible/

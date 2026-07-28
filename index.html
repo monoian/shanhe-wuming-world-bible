@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>山河無名｜官方世界聖經</title>
+<meta name="description" content="一個沒有唯一主角、沒有固定主線、世界永不重置的文字型多人武俠世界。">
+<meta name="theme-color" content="#0a0d11">
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;background:radial-gradient(circle at 80% 0,rgba(189,154,90,.18),transparent 28%),#0a0d11;color:#eee9df;font-family:"Microsoft JhengHei",sans-serif}.box{width:min(620px,calc(100% - 32px));padding:36px;border:1px solid #35404c;border-radius:18px;background:#151b22;text-align:center}h1{font-family:serif;letter-spacing:.1em}p{color:#aaa394;line-height:1.8}.bar{height:3px;background:#242d37;border-radius:3px;overflow:hidden;margin-top:22px}.bar:after{content:"";display:block;height:100%;width:42%;background:#bd9a5a;animation:load 1.2s infinite alternate}@keyframes load{to{transform:translateX(140%)}}a{color:#e0c993}
+</style>
+</head>
+<body>
+<main class="box">
+<h1>山河無名</h1>
+<p id="status">正在展開完整世界聖經……</p>
+<div class="bar"></div>
+<noscript><p>此網站需要啟用 JavaScript。</p></noscript>
+</main>
+<script>
+(async()=>{
+  const status=document.getElementById('status');
+  try{
+    if(!('DecompressionStream' in window)) throw new Error('browser');
+    const response=await fetch('./site.html.gz',{cache:'no-store'});
+    if(!response.ok) throw new Error('download');
+    const stream=response.body.pipeThrough(new DecompressionStream('gzip'));
+    const source=await new Response(stream).text();
+    document.open();document.write(source);document.close();
+  }catch(error){
+    status.innerHTML='目前瀏覽器無法展開網站。請使用最新版 Chrome、Edge、Safari 或 Firefox，或前往 <a href="https://github.com/monoian/shanhe-wuming-world-bible">GitHub 專案頁</a>。';
+    document.querySelector('.bar').style.display='none';
+  }
+})();
+</script>
+</body>
+</html>
