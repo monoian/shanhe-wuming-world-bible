@@ -1,0 +1,122 @@
+</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b3-c5" data-title="七大成長面向">
+          <div class="chapter-no">03.05</div>
+          <h3>七大成長面向</h3>
+          <p>身體、武學、知識、技藝、人際、身分與傳承。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b3-c6" data-title="地域性名聲">
+          <div class="chapter-no">03.06</div>
+          <h3>地域性名聲</h3>
+          <p>同一玩家可在百姓、官府、門派、商人與外地擁有完全不同評價。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b3-c7" data-title="承諾與契約">
+          <div class="chapter-no">03.07</div>
+          <h3>承諾與契約</h3>
+          <p>口頭承諾、借貸、護送、保密、師徒、結義、婚約、決鬥、商業與盟約都可被正式記錄。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b3-c8" data-title="人情系統">
+          <div class="chapter-no">03.08</div>
+          <h3>人情系統</h3>
+          <p>虧欠不是抽象點數，而是未來可以被要求償還的社會關係。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b3-c9" data-title="婚姻與家庭">
+          <div class="chapter-no">03.09</div>
+          <h3>婚姻與家庭</h3>
+          <p>婚姻、伴侶、子女、家族、繼承與家庭責任可成為長期人生系統，但不只是增益效果。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b3-c10" data-title="工作與職業道路">
+          <div class="chapter-no">03.10</div>
+          <h3>工作與職業道路</h3>
+          <p>武者、官差、商人、醫者、情報客、名士、工匠、掌櫃、鏢師、船主等都可影響世界。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b3-c11" data-title="中後期責任">
+          <div class="chapter-no">03.11</div>
+          <h3>中後期責任</h3>
+          <p>角色越有名、越有權，越要處理弟子、產業、員工、政治、仇家、家人與社會期待。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b3-c12" data-title="老化、退隱與失蹤">
+          <div class="chapter-no">03.12</div>
+          <h3>老化、退隱與失蹤</h3>
+          <p>角色不必永遠成長。可以退隱、失蹤、轉為 NPC、重新出山或建立接班人。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b3-c13" data-title="死亡與繼承">
+          <div class="chapter-no">03.13</div>
+          <h3>死亡與繼承</h3>
+          <p>死亡後可由弟子、後代、同門、義子或接班人繼承部分財產、筆記、人脈與恩怨。</p><div class='detail-grid'><div class='detail'><h4>核心原則</h4><p>武學強弱不只看數值，而看距離、招式理解、身體狀態、情報、地形、兵器與意圖。</p></div><div class='detail'><h4>正式判定</h4><p>伺服器先計算合法性、成功程度、傷勢與代價，再交由 AI 描述，不允許文字反向改變結果。</p></div><div class='detail'><h4>角色限制</h4><p>疲勞、疼痛、舊傷、內功衝突、年齡、恢復時間與治療資源會限制無限成長。</p></div><div class='detail'><h4>歷史價值</h4><p>武學版本、祕笈流轉、師徒傳授、改式與戰鬥紀錄會形成可追溯的傳承史。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b3-c14" data-title="被遺忘的價值">
+          <div class="chapter-no">03.14</div>
+          <h3>被遺忘的價值</h3>
+          <p>角色可能沒有被史書正確記住，但其行動仍然真實改變世界。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article><section class='book-head' id='book-4'><div class='kicker'>第 4 冊</div><h2>第四冊：NPC、記憶與社會心智</h2><p>本冊共 14 個正式章節。</p></section>
+        <article class="chapter" id="b4-c1" data-title="NPC 四級模型">
+          <div class="chapter-no">04.01</div>
+          <h3>NPC 四級模型</h3>
+          <p>人口群體、一般具名 NPC、核心 NPC、歷史人物。</p><div class='detail-grid'><div class='detail'><h4>輸入狀態</h4><p>人物身分、位置、需求、關係、已知資訊、情緒、資產、責任與期限。</p></div><div class='detail'><h4>決策方式</h4><p>先由規則列出可執行行動，再依目標、風險、價值觀、關係與資源評估，不讓 AI 任意決定。</p></div><div class='detail'><h4>玩家互動</h4><p>玩家可建立信任、虧欠、恐懼、依賴與立場衝突；單次高說服不能推翻人物長期底線。</p></div><div class='detail'><h4>持續結果</h4><p>人物
