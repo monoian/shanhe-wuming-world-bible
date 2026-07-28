@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#102A43">
+<title>2026 TOYOTA 英國 8天6夜｜載入中</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;background:#102a43;color:#fff;font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Microsoft JhengHei",sans-serif;padding:24px}.box{width:min(560px,100%);padding:38px;border:1px solid rgba(255,255,255,.2);border-radius:22px;background:rgba(255,255,255,.08);text-align:center;box-shadow:0 22px 60px rgba(0,0,0,.25)}.flag{font-size:72px}.bar{height:5px;background:rgba(255,255,255,.16);border-radius:99px;overflow:hidden;margin:24px 0}.bar:after{content:"";display:block;width:35%;height:100%;background:#e7c96e;animation:load 1s ease-in-out infinite alternate}@keyframes load{to{transform:translateX(185%)}}p{color:#dce8f2;line-height:1.7}.error{display:none}a{color:#ffe39a}
+</style>
+</head>
+<body>
+<main class="box">
+<div class="flag">🇬🇧</div>
+<h1>英國互動旅遊書</h1>
+<p id="status">正在載入每日行程與地圖…</p>
+<div class="bar" id="bar"></div>
+<p class="error" id="error">載入失敗，請重新整理，或<a href="https://drive.google.com/file/d/1Yi8SvNctYausUHoyc8PV2Z3s9gi7Ic9-/view?usp=drivesdk">開啟雲端硬碟版本</a>。</p>
+</main>
+<script>
+(async()=>{
+ try{
+  const names=['payload-0.txt','payload-1.txt','payload-2.txt'];
+  const parts=await Promise.all(names.map(async n=>{const r=await fetch(n,{cache:'no-store'});if(!r.ok)throw new Error(n);return (await r.text()).trim()}));
+  const bin=atob(parts.join(''));
+  const bytes=Uint8Array.from(bin,c=>c.charCodeAt(0));
+  let html;
+  if('DecompressionStream' in window){
+    const ds=new DecompressionStream('gzip');
+    html=await new Response(new Blob([bytes]).stream().pipeThrough(ds)).text();
+  }else{
+    await new Promise((ok,bad)=>{const s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/pako@2.1.0/dist/pako.min.js';s.onload=ok;s.onerror=bad;document.head.appendChild(s)});
+    html=new TextDecoder().decode(window.pako.ungzip(bytes));
+  }
+  document.open();document.write(html);document.close();
+ }catch(e){
+  console.error(e);
+  document.getElementById('status').textContent='網站資料暫時無法載入';
+  document.getElementById('bar').style.display='none';
+  document.getElementById('error').style.display='block';
+ }
+})();
+</script>
+</body>
+</html>
