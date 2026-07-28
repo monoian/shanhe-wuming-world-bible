@@ -1,0 +1,122 @@
+笈流轉、師徒傳授、改式與戰鬥紀錄會形成可追溯的傳承史。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b5-c10" data-title="戰鬥行動">
+          <div class="chapter-no">05.10</div>
+          <h3>戰鬥行動</h3>
+          <p>試探、搶攻、防守、拆招、變位、貼身、退離、運功、暗器、保護、利用環境、求和、投降與逃離。</p><div class='detail-grid'><div class='detail'><h4>核心原則</h4><p>武學強弱不只看數值，而看距離、招式理解、身體狀態、情報、地形、兵器與意圖。</p></div><div class='detail'><h4>正式判定</h4><p>伺服器先計算合法性、成功程度、傷勢與代價，再交由 AI 描述，不允許文字反向改變結果。</p></div><div class='detail'><h4>角色限制</h4><p>疲勞、疼痛、舊傷、內功衝突、年齡、恢復時間與治療資源會限制無限成長。</p></div><div class='detail'><h4>歷史價值</h4><p>武學版本、祕笈流轉、師徒傳授、改式與戰鬥紀錄會形成可追溯的傳承史。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b5-c11" data-title="攻擊意圖">
+          <div class="chapter-no">05.11</div>
+          <h3>攻擊意圖</h3>
+          <p>警告、制伏、傷害、致命，法律與名聲後果不同。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b5-c12" data-title="多人戰鬥">
+          <div class="chapter-no">05.12</div>
+          <h3>多人戰鬥</h3>
+          <p>交戰組、支援位、遠程位、脫離區與保護目標共同構成戰場。</p><div class='detail-grid'><div class='detail'><h4>核心原則</h4><p>武學強弱不只看數值，而看距離、招式理解、身體狀態、情報、地形、兵器與意圖。</p></div><div class='detail'><h4>正式判定</h4><p>伺服器先計算合法性、成功程度、傷勢與代價，再交由 AI 描述，不允許文字反向改變結果。</p></div><div class='detail'><h4>角色限制</h4><p>疲勞、疼痛、舊傷、內功衝突、年齡、恢復時間與治療資源會限制無限成長。</p></div><div class='detail'><h4>歷史價值</h4><p>武學版本、祕笈流轉、師徒傳授、改式與戰鬥紀錄會形成可追溯的傳承史。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b5-c13" data-title="傷勢系統">
+          <div class="chapter-no">05.13</div>
+          <h3>傷勢系統</h3>
+          <p>部位、類型、嚴重度、疼痛、出血、感染、功能限制、恢復與後遺症。</p><div class='detail-grid'><div class='detail'><h4>核心原則</h4><p>武學強弱不只看數值，而看距離、招式理解、身體狀態、情報、地形、兵器與意圖。</p></div><div class='detail'><h4>正式判定</h4><p>伺服器先計算合法性、成功程度、傷勢與代價，再交由 AI 描述，不允許文字反向改變結果。</p></div><div class='detail'><h4>角色限制</h4><p>疲勞、疼痛、舊傷、內功衝突、年齡、恢復時間與治療資源會限制無限成長。</p></div><div class='detail'><h4>歷史價值</h4><p>武學版本、祕笈流轉、師徒傳授、改式與戰鬥紀錄會形成可追溯的傳承史。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b5-c14" data-title="醫療流程">
+          <div class="chapter-no">05.14</div>
+          <h3>醫療流程</h3>
+          <p>止血、清創、固定、縫合、解毒、止痛、休養、復健、飲食與觀察。</p><div class='detail-grid'><div class='detail'><h4>核心原則</h4><p>武學強弱不只看數值，而看距離、招式理解、身體狀態、情報、地形、兵器與意圖。</p></div><div class='detail'><h4>正式判定</h4><p>伺服器先計算合法性、成功程度、傷勢與代價，再交由 AI 描述，不允許文字反向改變結果。</p></div><div class='detail'><h4>角色限制</h4><p>疲勞、疼痛、舊傷、內功衝突、年齡、恢復時間與治療資源會限制無限成長。</p></div><div class='detail'><h4>歷史價值</h4><p>武學版本、祕笈流轉、師徒傳授、改式與戰鬥紀錄會形成可追溯的傳承史。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b5-c15" data-title="疾病與疫病">
+          <div class="chapter-no">05.15</div>
+          <h3>疾病與疫病</h3>
+          <p>水源、食物、人口密度、交通、天候、醫療與公開資訊共同影響疾病。</p><div class='detail-grid'><div class='detail'><h4>核心原則</h4><p>武學強弱不只看數值，而看距離、招式理解、身體狀態、情報、地形、兵器與意圖。</p></div><div class='detail'><h4>正式判定</h4><p>伺服器先計算合法性、成功程度、傷勢與代價，再交由 AI 描述，不允許文字反向改變結果。</p></div><div class='detail'><h4>角色限制</h4><p>疲勞、疼痛、舊傷、內功衝突、年齡、恢復時間與治療資源會限制無限成長。</p></div><div class='detail'><h4>歷史價值</h4><p>武學版本、祕笈流轉、師徒傳授、改式與戰鬥紀錄會形成可追溯的傳承史。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b5-c16" data-title="永久死亡風險">
+          <div class="chapter-no">05.16</div>
+          <h3>永久死亡風險</h3>
+          <p>只在明確高風險活動、重傷失治、戰場、處決、禁術與重大災難中發生。</p><div class='detail-grid'><div class='detail'><h4>核心原則</h4><p>武學強弱不只看數值，而看距離、招式理解、身體狀態、情報、地形、兵器與意圖。</p></div><div class='detail'><h4>正式判定</h4><p>伺服器先計算合法性、成功程度、傷勢與代價，再交由 AI 描述，不允許文字反向改變結果。</p></div><div class='detail'><h4>角色限制</h4><p>疲勞、疼痛、舊傷、內功衝突、年齡、恢復時間與治療資源會限制無限成長。</p></div><div class='detail'><h4>歷史價值</h4><p>武學版本、祕笈流轉、師徒傳授、改式與戰鬥紀錄會形成可追溯的傳承史。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article><section class='book-head' id='book-6'><div class='kicker'>第 6 冊</div><h2>第六冊：經濟、法律與多人世界</h2><p>本冊共 16 個正式章節。</p></section>
+        <article class="chapter" id="b6-c1" data-title="大宗物資與獨立物品">
+          <div class="chapter-no">06.01</div>
+          <h3>大宗物資與獨立物品</h3>
+          <p>糧、藥、木、鐵、鹽等以批次管理；武器、祕笈、信件、印章與名物有獨立 ID。</p><div class='detail-grid'><div class='detail'><h4>共享世界</h4><p>資產、物資、證據、人物與地點都由所有玩家共用，不建立個人副本。</p></div><div class='detail'><h4>來源與去向</h4><p>每筆金錢、貨物、所有權、案件與組織決策都需有來源、轉移、持有人與結果。</p></div><div class='detail'><h4>間接影響</h4><p>玩家可透過囤積、運輸、雇用、報案、宣傳、停工、投票與契約影響未曾見面的其他玩家。</p></div><div class='detail'><h4>風險與反制</h4><p>任何權力都會帶來成本、責任、法律風險、內部反對與資源壓力，避免永久壟斷。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b6-c2" data-title="真實供應鏈">
+          <div class="chapter-no">06.02</div>
+          <h3>真實供應鏈</h3>
+          <p>採集、生產、加工、運輸、儲存、販售與使用任何一環中斷，都會改變價格與民生。</p><div class='detail-grid'><div class='detail'><h4>共享世界</h4><p>資產、物資、證據、人物與地點都由所有玩家共用，不建立個人副本。</p></div><div class='detail'><h4>來源與去向</h4><p>每筆金錢、貨物、所有權、案件與組織決策都需有來源、轉移、持有人與結果。</p></div><div class='detail'><h4>間接影響</h4><p>玩家可透過囤積、運輸、雇用、報案、宣傳、停工、投票與契約影響未曾見面的其他玩家。</p></div><div class='detail'><h4>風險與反制</h4><p>任何權力都會帶來成本、責任、法律風險、內部反對與資源壓力，避免永久壟斷。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b6-c3" data-title="市場價格">
+          <div class="chapter-no">06.03</div>
+          <h3>市場價格</h3>
+          <p>基礎成本、供需、運輸、風險、稅、恐慌、替代品與商人預期共同形成。</p><div class='detail-grid'><div class='detail'><h4>共享世界</h4><p>資產、物資、證據、人物與地點都由所有玩家共用，不建立個人副本。</p></div><div class='detail'><h4>來源與去向</h4><p>每筆金錢、貨物、所有權、案件與組織決策都需有來源、轉移、持有人與結果。</p></div><div class='detail'><h4>間接影響</h4><p>玩家可透過囤積、運輸、雇用、報案、宣傳、停工、投票與契約影響未曾見面的其他玩家。</p></div><div class='detail'><h4>風險與反制</h4><p>任何權力都會帶來成本、責任、法律風險、內部反對與資源壓力，避免永久壟斷。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b6-c4" data-title="貨物損耗">
+          <div class="chapter-no">06.04</div>
+          <h3>貨物損耗</h3>
+          <p>糧食受潮、藥材失效、武器損壞、船隻維修、馬匹消耗。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detai
