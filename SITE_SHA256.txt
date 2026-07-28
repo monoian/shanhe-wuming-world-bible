@@ -1,0 +1,5 @@
+source_file=shanhe-wuming-world-bible-v2/index.html
+source_sha256=8c0ae19ad6eae592771921dc51fa8032c0d0b702b806567a151fadf5ff03ffb5
+gzip_sha256=71d259d280107b36c98f9c430d84f7338e10d5dbe82c066f4baee8a5c41f68eb
+source_bytes=159291
+gzip_bytes=18731
