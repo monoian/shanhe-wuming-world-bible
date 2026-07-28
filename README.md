@@ -6,7 +6,26 @@
 
 ## 公開網站
 
+正式網址：
+
 https://monoian.github.io/shanhe-wuming-world-bible/
+
+若正式網址尚未啟用，可先使用 GitHack 預覽：
+
+https://raw.githack.com/monoian/shanhe-wuming-world-bible/gh-pages/index.html
+
+## 第一次啟用 GitHub Pages
+
+1. 開啟 Repository 的 `Settings`。
+2. 左側選擇 `Pages`。
+3. `Source` 選擇 `Deploy from a branch`。
+4. Branch 選擇 `gh-pages`。
+5. Folder 選擇 `/(root)`。
+6. 按下 `Save`。
+
+Pages 設定網址：
+
+https://github.com/monoian/shanhe-wuming-world-bible/settings/pages
 
 ## 目前內容
 
@@ -20,6 +39,6 @@ https://monoian.github.io/shanhe-wuming-world-bible/
 - AI 行動解析、NPC 對話、敘事與資料邊界
 - 臨川府、春水藥案與完整開發藍圖
 
-## 部署
+## 部署方式
 
-網站由 `.github/workflows/pages.yml` 自動部署至 GitHub Pages。`site.html.gz` 是完整網站來源的壓縮版本，工作流程會將它解壓縮為正式的 `index.html` 後發布。
+網站正式檔案位於 `gh-pages` 分支根目錄。啟用 GitHub Pages 後，GitHub 會從該分支發布網站。
