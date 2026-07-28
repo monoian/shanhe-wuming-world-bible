@@ -1,0 +1,122 @@
+會記得、轉述、報復、回報、改變行程，也可能因時間、誤解與新資訊更新自己的看法。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b4-c2" data-title="人物資料核心">
+          <div class="chapter-no">04.02</div>
+          <h3>人物資料核心</h3>
+          <p>身分、公開與隱藏角色、性格、價值、欲望、恐懼、責任、資產、關係、知識、目標、底線與行程。</p><div class='detail-grid'><div class='detail'><h4>輸入狀態</h4><p>人物身分、位置、需求、關係、已知資訊、情緒、資產、責任與期限。</p></div><div class='detail'><h4>決策方式</h4><p>先由規則列出可執行行動，再依目標、風險、價值觀、關係與資源評估，不讓 AI 任意決定。</p></div><div class='detail'><h4>玩家互動</h4><p>玩家可建立信任、虧欠、恐懼、依賴與立場衝突；單次高說服不能推翻人物長期底線。</p></div><div class='detail'><h4>持續結果</h4><p>人物會記得、轉述、報復、回報、改變行程，也可能因時間、誤解與新資訊更新自己的看法。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b4-c3" data-title="需求模型">
+          <div class="chapter-no">04.03</div>
+          <h3>需求模型</h3>
+          <p>生存、安全、關係、地位、利益、信念與長期目標。</p><div class='detail-grid'><div class='detail'><h4>輸入狀態</h4><p>人物身分、位置、需求、關係、已知資訊、情緒、資產、責任與期限。</p></div><div class='detail'><h4>決策方式</h4><p>先由規則列出可執行行動，再依目標、風險、價值觀、關係與資源評估，不讓 AI 任意決定。</p></div><div class='detail'><h4>玩家互動</h4><p>玩家可建立信任、虧欠、恐懼、依賴與立場衝突；單次高說服不能推翻人物長期底線。</p></div><div class='detail'><h4>持續結果</h4><p>人物會記得、轉述、報復、回報、改變行程，也可能因時間、誤解與新資訊更新自己的看法。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b4-c4" data-title="自主決策">
+          <div class="chapter-no">04.04</div>
+          <h3>自主決策</h3>
+          <p>NPC 從有限候選行動中，依目標進展、安全、忠誠、資源、名聲、法律風險與道德衝突計算效用。</p><div class='detail-grid'><div class='detail'><h4>輸入狀態</h4><p>人物身分、位置、需求、關係、已知資訊、情緒、資產、責任與期限。</p></div><div class='detail'><h4>決策方式</h4><p>先由規則列出可執行行動，再依目標、風險、價值觀、關係與資源評估，不讓 AI 任意決定。</p></div><div class='detail'><h4>玩家互動</h4><p>玩家可建立信任、虧欠、恐懼、依賴與立場衝突；單次高說服不能推翻人物長期底線。</p></div><div class='detail'><h4>持續結果</h4><p>人物會記得、轉述、報復、回報、改變行程，也可能因時間、誤解與新資訊更新自己的看法。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b4-c5" data-title="性格權重">
+          <div class="chapter-no">04.05</div>
+          <h3>性格權重</h3>
+          <p>謹慎者重風險、重義者重關係、貪婪者重資源、好名者重公開評價、偏執者可能忽略危險。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b4-c6" data-title="固定、計畫與緊急行程">
+          <div class="chapter-no">04.06</div>
+          <h3>固定、計畫與緊急行程</h3>
+          <p>日常工作、目標行程與突發事件會共同改變 NPC 位置。</p><div class='detail-grid'><div class='detail'><h4>輸入狀態</h4><p>人物身分、位置、需求、關係、已知資訊、情緒、資產、責任與期限。</p></div><div class='detail'><h4>決策方式</h4><p>先由規則列出可執行行動，再依目標、風險、價值觀、關係與資源評估，不讓 AI 任意決定。</p></div><div class='detail'><h4>玩家互動</h4><p>玩家可建立信任、虧欠、恐懼、依賴與立場衝突；單次高說服不能推翻人物長期底線。</p></div><div class='detail'><h4>持續結果</h4><p>人物會記得、轉述、報復、回報、改變行程，也可能因時間、誤解與新資訊更新自己的看法。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b4-c7" data-title="八維人物關係">
+          <div class="chapter-no">04.07</div>
+          <h3>八維人物關係</h3>
+          <p>信任、親近、敬重、恐懼、虧欠、怨恨、依賴、立場衝突。</p><div class='detail-grid'><div class='detail'><h4>輸入狀態</h4><p>人物身分、位置、需求、關係、已知資訊、情緒、資產、責任與期限。</p></div><div class='detail'><h4>決策方式</h4><p>先由規則列出可執行行動，再依目標、風險、價值觀、關係與資源評估，不讓 AI 任意決定。</p></div><div class='detail'><h4>玩家互動</h4><p>玩家可建立信任、虧欠、恐懼、依賴與立場衝突；單次高說服不能推翻人物長期底線。</p></div><div class='detail'><h4>持續結果</h4><p>人物會記得、轉述、報復、回報、改變行程，也可能因時間、誤解與新資訊更新自己的看法。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b4-c8" data-title="記憶類型">
+          <div class="chapter-no">04.08</div>
+          <h3>記憶類型</h3>
+          <p>事件、關係、知識、承諾、情緒、傳聞與身分記憶。</p><div class='detail-grid'><div class='detail'><h4>輸入狀態</h4><p>人物身分、位置、需求、關係、已知資訊、情緒、資產、責任與期限。</p></div><div class='detail'><h4>決策方式</h4><p>先由規則列出可執行行動，再依目標、風險、價值觀、關係與資源評估，不讓 AI 任意決定。</p></div><div class='detail'><h4>玩家互動</h4><p>玩家可建立信任、虧欠、恐懼、依賴與立場衝突；單次高說服不能推翻人物長期底線。</p></div><div class='detail'><h4>持續結果</h4><p>人物會記得、轉述、報復、回報、改變行程，也可能因時間、誤解與新資訊更新自己的看法。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b4-c9" data-title="記憶衰退與錯誤">
+          <div class="chapter-no">04.09</div>
+          <h3>記憶衰退與錯誤</h3>
+          <p>NPC 會忘記細節、混淆人物、受偏見與新消息影響，或重構記憶。</p><div class='detail-grid'><div class='detail'><h4>輸入狀態</h4><p>人物身分、位置、需求、關係、已知資訊、情緒、資產、責任與期限。</p></div><div class='detail'><h4>決策方式</h4><p>先由規則列出可執行行動，再依目標、風險、價值觀、關係與資源評估，不讓 AI 任意決定。</p></div><div class='detail'><h4>玩家互動</h4><p>玩家可建立信任、虧欠、恐懼、依賴與立場衝突；單次高說服不能推翻人物長期底線。</p></div><div class='detail'><h4>持續結果</h4><p>人物會記得、轉述、報復、回報、改變行程，也可能因時間、誤解與新資訊更新自己的看法。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b4-c10" data-title="知道、相信與宣稱分離">
+          <div class="chapter-no">04.10</div>
+          <h3>知道、相信與宣稱分離</h3>
+          <p>一名 NPC 知道的、相信的、公開說的與真正發生的可能完全不同。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b4-c11" data-title="說謊與保留">
+          <div class="chapter-no">04.11</div>
+          <h3>說謊與保留</h3>
+          <p>NPC 是否說真話，取決於知識、關係、風險、利益、恐懼與底線。</p><div class='detail-grid'><div class='detail'><h4>輸入狀態</h4><p>人物身分、位置、需求、關係、已知資訊、情緒、資產、責任與期限。</p></div><div class='detail'><h4>決策方式</h4><p>先由規則列出可執行行動，再依目標、風險、價值觀、關係與資源評估，不讓 AI 任意決定。</p></div><div class='detail'><h4>玩家互動</h4><p>玩家可建立信任、虧欠、恐懼、依賴與立場衝突；單次高說服不能推翻人物長期底線。</p></div><div class='detail'><h4>持續結果</h4><p>人物會記得、轉述、報復、回報、改變行程，也可能因時間、誤解與新資訊更新自己的看法。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b4-c12" data-title="普通人升格">
+          <div class="chapter-no">04.12</div>
+          <h3>普通人升格</h3>
+          <p>被玩家多次接觸、救助、雇用、收徒或捲入事件的背景人物，會升格為正式角色。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC
