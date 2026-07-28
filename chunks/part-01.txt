@@ -1,0 +1,109 @@
+物損耗</a><a href='#b6-c5'>玩家產業</a><a href='#b6-c6'>員工人生</a><a href='#b6-c7'>法律流程</a><a href='#b6-c8'>犯罪與反調查</a><a href='#b6-c9'>官府腐敗</a><a href='#b6-c10'>直接多人互動</a><a href='#b6-c11'>間接多人互動</a><a href='#b6-c12'>事件不屬於接取者</a><a href='#b6-c13'>場景分流與單一歷史</a><a href='#b6-c14'>玩家組織</a><a href='#b6-c15'>組織章程與繼承</a><a href='#b6-c16'>反壟斷設計</a></div><a class='book-link' href='#book-7'>第七冊：AI 敘事與內容系統</a><div class='subtoc'><a href='#b7-c1'>AI 的角色</a><a href='#b7-c2'>標準流程</a><a href='#b7-c3'>行動解析器</a><a href='#b7-c4'>NPC 對話器</a><a href='#b7-c5'>場景敘述器</a><a href='#b7-c6'>戰鬥敘述器</a><a href='#b7-c7'>記憶摘要器</a><a href='#b7-c8'>謠言轉寫器</a><a href='#b7-c9'>地方紀聞編輯器</a><a href='#b7-c10'>最小資訊原則</a><a href='#b7-c11'>提示詞與輸出驗證</a><a href='#b7-c12'>AI 失敗備援</a><a href='#b7-c13'>成本分級</a><a href='#b7-c14'>防提示詞注入</a><a href='#b7-c15'>AI 不可自創正式內容</a></div><a class='book-link' href='#book-8'>第八冊：臨川篇與開發藍圖</a><div class='subtoc'><a href='#b8-c1'>臨川府定位</a><a href='#b8-c2'>主要地點</a><a href='#b8-c3'>核心 NPC 群</a><a href='#b8-c4'>春水藥案</a><a href='#b8-c5'>各方目標</a><a href='#b8-c6'>事件階段</a><a href='#b8-c7'>隱藏變數</a><a href='#b8-c8'>第一個垂直切片</a><a href='#b8-c9'>玩家首頁</a><a href='#b8-c10'>核心介面</a><a href='#b8-c11'>原型 0.1</a><a href='#b8-c12'>封閉測試 0.5</a><a href='#b8-c13'>臨川篇 1.0</a><a href='#b8-c14'>技術架構</a><a href='#b8-c15'>管理後台</a><a href='#b8-c16'>長期營運</a></div></nav>
+</aside><main>
+<section class="hero"><div class="kicker">THE COMPLETE WORLD & GAME BIBLE</div>
+<h1>山河無名</h1>
+<p class="lead">一個沒有唯一主角、沒有固定主線、沒有世界重置的文字型多人武俠人生模擬世界。玩家只是一個小人物，但每一次選擇都會成為世界的一部分。</p>
+<div class="quote">世界不以任何玩家為中心，但世界會記得每一個玩家。</div>
+<div class="stats"><div class="stat">8 大分冊</div><div class="stat">116 個章節</div><div class="stat">持續型世界</div><div class="stat">可全文搜尋</div></div>
+<div class="hero-actions">
+<a class="primary" href="#book-1">開始閱讀</a>
+<a href="#book-4">NPC 世界</a>
+<a href="#book-5">武學與戰鬥</a>
+<a href="#book-8">臨川篇</a>
+</div>
+<div class="feature-grid">
+<div class="feature"><strong>單一正史</strong>所有玩家共用同一條正式時間線。</div>
+<div class="feature"><strong>世界持續</strong>玩家離線後，人物與事件仍然前進。</div>
+<div class="feature"><strong>小人物人生</strong>不必成為天下第一，也能留下歷史。</div>
+<div class="feature"><strong>AI 非裁判</strong>規則決定結果，AI 負責文字表現。</div>
+</div>
+</section>
+<section class="diagram" id="core-loop">
+<div class="kicker">核心世界循環</div>
+<h2>玩家選擇如何成為歷史</h2>
+<div class="diagram-row">
+<div class="diagram-node">玩家輸入</div><div class="diagram-arrow">→</div>
+<div class="diagram-node">AI 解析意圖</div><div class="diagram-arrow">→</div>
+<div class="diagram-node">規則引擎判定</div><div class="diagram-arrow">→</div>
+<div class="diagram-node">事件總帳</div><div class="diagram-arrow">→</div>
+<div class="diagram-node">世界狀態更新</div><div class="diagram-arrow">→</div>
+<div class="diagram-node">NPC 與玩家感知後果</div>
+</div>
+</section><section class='book-head' id='book-1'><div class='kicker'>第 1 冊</div><h2>第一冊：世界觀與文明</h2><p>本冊共 12 個正式章節。</p></section>
+        <article class="chapter" id="b1-c1" data-title="世界核心宣言">
+          <div class="chapter-no">01.01</div>
+          <h3>世界核心宣言</h3>
+          <p>世界不以任何玩家為中心，但世界會記得每一個玩家。所有玩家共享同一份正式歷史；每一次正式行動都會改變至少一項狀態。</p><div class='detail-grid'><div class='detail'><h4>設計目的</h4><p>讓世界不只是背景設定，而是能實際限制角色、產生衝突並推動事件的運作規則。</p></div><div class='detail'><h4>玩家如何感受到</h4><p>透過地方法令、物價、人物態度、旅行限制、節慶、語言、身分與日常生活呈現，而不是只放在百科文字中。</p></div><div class='detail'><h4>系統化要求</h4><p>所有重要設定都應對應正式資料、可查詢狀態、事件條件與角色視角，避免 AI 自由改寫。</p></div><div class='detail'><h4>長期演化</h4><p>制度、文化與歷史評價都可因戰爭、改革、玩家組織、輿論和世代更替而改變。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b1-c2" data-title="武俠而非仙俠">
+          <div class="chapter-no">01.02</div>
+          <h3>武俠而非仙俠</h3>
+          <p>內功、輕功、點穴、毒術與高明武藝存在，但不存在可公開驗證的修仙、飛劍、法術與不死。怪異現象優先由毒物、機關、疾病、地形、易容與心理因素解釋。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b1-c3" data-title="大曜王朝">
+          <div class="chapter-no">01.03</div>
+          <h3>大曜王朝</h3>
+          <p>大曜立國一百七十二年，景和二十七年。皇帝病重、太子早逝，定王、靖王、寧王與皇孫勢力暗中角力。</p><div class='detail-grid'><div class='detail'><h4>設計目的</h4><p>讓世界不只是背景設定，而是能實際限制角色、產生衝突並推動事件的運作規則。</p></div><div class='detail'><h4>玩家如何感受到</h4><p>透過地方法令、物價、人物態度、旅行限制、節慶、語言、身分與日常生活呈現，而不是只放在百科文字中。</p></div><div class='detail'><h4>系統化要求</h4><p>所有重要設定都應對應正式資料、可查詢狀態、事件條件與角色視角，避免 AI 自由改寫。</p></div><div class='detail'><h4>長期演化</h4><p>制度、文化與歷史評價都可因戰爭、改革、玩家組織、輿論和世代更替而改變。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b1-c4" data-title="王朝官制">
+          <div class="chapter-no">01.04</div>
+          <h3>王朝官制</h3>
+          <p>中央、道、府、縣與鄉里構成行政體系；地方官府掌握稅收、治安、司法與徵發，但實際權力受到軍鎮、豪族、商會、寺院與江湖組織制衡。</p><div class='detail-grid'><div class='detail'><h4>設計目的</h4><p>讓世界不只是背景設定，而是能實際限制角色、產生衝突並推動事件的運作規則。</p></div><div class='detail'><h4>玩家如何感受到</h4><p>透過地方法令、物價、人物態度、旅行限制、節慶、語言、身分與日常生活呈現，而不是只放在百科文字中。</p></div><div class='detail'><h4>系統化要求</h4><p>所有重要設定都應對應正式資料、可查詢狀態、事件條件與角色視角，避免 AI 自由改寫。</p></div><div class='detail'><h4>長期演化</h4><p>制度、文化與歷史評價都可因戰爭、改革、玩家組織、輿論和世代更替而改變。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b1-c5" data-title="武籍制度">
+          <div class="chapter-no">01.05</div>
+          <h3>武籍制度</h3>
+          <p>大型門派、鏢局與武館原則上需登記武籍，以換取合法持械、公開授徒與承接護送的權利，同時接受鎮武司監控。</p><div class='detail-grid'><div class='detail'><h4>設計目的</h4><p>讓世界不只是背景設定，而是能實際限制角色、產生衝突並推動事件的運作規則。</p></div><div class='detail'><h4>玩家如何感受到</h4><p>透過地方法令、物價、人物態度、旅行限制、節慶、語言、身分與日常生活呈現，而不是只放在百科文字中。</p></div><div class='detail'><h4>系統化要求</h4><p>所有重要設定都應對應正式資料、可查詢狀態、事件條件與角色視角，避免 AI 自由改寫。</p></div><div class='detail'><h4>長期演化</h4><p>制度、文化與歷史評價都可因戰爭、改革、玩家組織、輿論和世代更替而改變。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b1-c6" data-title="天下九域">
+          <div class="chapter-no">01.06</div>
+          <h3>天下九域</h3>
+          <p>神京畿道、中州、江南六郡、河朔邊州、關西群山、巴蜀百嶺、嶺南瘴海、東海群島、西陲雪原，各有資源、文化與政治問題。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b1-c7" data-title="社會階層">
+          <div class="chapter-no">01.07</div>
+          <h3>社會階層</h3>
+          <p>皇族、官僚、士紳、商人、軍戶、工匠、農戶、船工、流民與江湖人共同構成社會。階層會限制機會，但並非永久不可改變。</p><div class='detail-grid'><div class='detail'><h4>設計目的</h4><p>讓世界不只是背景設定，而是能實際限制角色、產生衝突並推動事件的運作規則。</p></div><div class='detail'><h4>玩家如何感受到</h4><p>透過地方法令、物價、人物態度、旅行限制、節慶、語言、身分與日常生活呈現，而不是只放在百科文字中。</p></div><div class='detail'><h4>系統化要求</h4><p>所有重要設定都應對應正式資料、可查詢狀態、事件條件與角色視角，避免 AI 自由改寫。</p></div><div class='detail'><h4>長期演化</h4><p>制度、文化與歷史評價都可因戰爭、改革、玩家組織、輿論和世代更替而改變。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
