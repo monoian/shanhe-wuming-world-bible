@@ -1,0 +1,123 @@
+l'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b6-c5" data-title="玩家產業">
+          <div class="chapter-no">06.05</div>
+          <h3>玩家產業</h3>
+          <p>客棧、醫館、藥鋪、武館、鏢局、茶樓、報館、船行、鐵匠鋪、書坊、情報站與黑市。</p><div class='detail-grid'><div class='detail'><h4>共享世界</h4><p>資產、物資、證據、人物與地點都由所有玩家共用，不建立個人副本。</p></div><div class='detail'><h4>來源與去向</h4><p>每筆金錢、貨物、所有權、案件與組織決策都需有來源、轉移、持有人與結果。</p></div><div class='detail'><h4>間接影響</h4><p>玩家可透過囤積、運輸、雇用、報案、宣傳、停工、投票與契約影響未曾見面的其他玩家。</p></div><div class='detail'><h4>風險與反制</h4><p>任何權力都會帶來成本、責任、法律風險、內部反對與資源壓力，避免永久壟斷。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b6-c6" data-title="員工人生">
+          <div class="chapter-no">06.06</div>
+          <h3>員工人生</h3>
+          <p>員工有薪資、家庭、忠誠、不滿、能力與祕密，可能離職、偷錢、洩密、救店或成為接班人。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b6-c7" data-title="法律流程">
+          <div class="chapter-no">06.07</div>
+          <h3>法律流程</h3>
+          <p>目擊、證據、報案、立案、調查、確認身分、通緝、逮捕、審訊與判決。</p><div class='detail-grid'><div class='detail'><h4>共享世界</h4><p>資產、物資、證據、人物與地點都由所有玩家共用，不建立個人副本。</p></div><div class='detail'><h4>來源與去向</h4><p>每筆金錢、貨物、所有權、案件與組織決策都需有來源、轉移、持有人與結果。</p></div><div class='detail'><h4>間接影響</h4><p>玩家可透過囤積、運輸、雇用、報案、宣傳、停工、投票與契約影響未曾見面的其他玩家。</p></div><div class='detail'><h4>風險與反制</h4><p>任何權力都會帶來成本、責任、法律風險、內部反對與資源壓力，避免永久壟斷。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b6-c8" data-title="犯罪與反調查">
+          <div class="chapter-no">06.08</div>
+          <h3>犯罪與反調查</h3>
+          <p>蒙面、易容、偽造、收買、藏匿、清理、替罪、不在場證明與逃亡。</p><div class='detail-grid'><div class='detail'><h4>共享世界</h4><p>資產、物資、證據、人物與地點都由所有玩家共用，不建立個人副本。</p></div><div class='detail'><h4>來源與去向</h4><p>每筆金錢、貨物、所有權、案件與組織決策都需有來源、轉移、持有人與結果。</p></div><div class='detail'><h4>間接影響</h4><p>玩家可透過囤積、運輸、雇用、報案、宣傳、停工、投票與契約影響未曾見面的其他玩家。</p></div><div class='detail'><h4>風險與反制</h4><p>任何權力都會帶來成本、責任、法律風險、內部反對與資源壓力，避免永久壟斷。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b6-c9" data-title="官府腐敗">
+          <div class="chapter-no">06.09</div>
+          <h3>官府腐敗</h3>
+          <p>壓案、濫捕、包庇、隱瞞與政治干預本身也可成為案件。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b6-c10" data-title="直接多人互動">
+          <div class="chapter-no">06.10</div>
+          <h3>直接多人互動</h3>
+          <p>交易、合作、威脅、決鬥、拜師、結義、契約與背叛。</p><div class='detail-grid'><div class='detail'><h4>共享世界</h4><p>資產、物資、證據、人物與地點都由所有玩家共用，不建立個人副本。</p></div><div class='detail'><h4>來源與去向</h4><p>每筆金錢、貨物、所有權、案件與組織決策都需有來源、轉移、持有人與結果。</p></div><div class='detail'><h4>間接影響</h4><p>玩家可透過囤積、運輸、雇用、報案、宣傳、停工、投票與契約影響未曾見面的其他玩家。</p></div><div class='detail'><h4>風險與反制</h4><p>任何權力都會帶來成本、責任、法律風險、內部反對與資源壓力，避免永久壟斷。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b6-c11" data-title="間接多人互動">
+          <div class="chapter-no">06.11</div>
+          <h3>間接多人互動</h3>
+          <p>玩家透過市場、NPC、謠言、信件、案件、資源與組織彼此影響。</p><div class='detail-grid'><div class='detail'><h4>共享世界</h4><p>資產、物資、證據、人物與地點都由所有玩家共用，不建立個人副本。</p></div><div class='detail'><h4>來源與去向</h4><p>每筆金錢、貨物、所有權、案件與組織決策都需有來源、轉移、持有人與結果。</p></div><div class='detail'><h4>間接影響</h4><p>玩家可透過囤積、運輸、雇用、報案、宣傳、停工、投票與契約影響未曾見面的其他玩家。</p></div><div class='detail'><h4>風險與反制</h4><p>任何權力都會帶來成本、責任、法律風險、內部反對與資源壓力，避免永久壟斷。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b6-c12" data-title="事件不屬於接取者">
+          <div class="chapter-no">06.12</div>
+          <h3>事件不屬於接取者</h3>
+          <p>不存在個人任務副本，其他人可先取得證人、證據、貨物或改變事件。</p><div class='detail-grid'><div class='detail'><h4>核心目的</h4><p>將概念轉換成可被玩家體驗、可由系統判定、可被世界記錄的正式設計。</p></div><div class='detail'><h4>遊戲表現</h4><p>透過場景、人物、資源、時間、選擇與後果呈現，而非單純文字介紹。</p></div><div class='detail'><h4>資料要求</h4><p>重要元素需有唯一 ID、權限、狀態、歷史與因果來源。</p></div><div class='detail'><h4>驗收方式</h4><p>玩家的選擇需產生可測試的狀態變化，其他玩家或 NPC 能在後續感受到影響。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b6-c13" data-title="場景分流與單一歷史">
+          <div class="chapter-no">06.13</div>
+          <h3>場景分流與單一歷史</h3>
+          <p>聊天和視野可以分流，但重要物品、火災、NPC 生死與世界結果共用。</p><div class='detail-grid'><div class='detail'><h4>設計目的</h4><p>讓世界不只是背景設定，而是能實際限制角色、產生衝突並推動事件的運作規則。</p></div><div class='detail'><h4>玩家如何感受到</h4><p>透過地方法令、物價、人物態度、旅行限制、節慶、語言、身分與日常生活呈現，而不是只放在百科文字中。</p></div><div class='detail'><h4>系統化要求</h4><p>所有重要設定都應對應正式資料、可查詢狀態、事件條件與角色視角，避免 AI 自由改寫。</p></div><div class='detail'><h4>長期演化</h4><p>制度、文化與歷史評價都可因戰爭、改革、玩家組織、輿論和世代更替而改變。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b6-c14" data-title="玩家組織">
+          <div class="chapter-no">06.14</div>
+          <h3>玩家組織</h3>
+          <p>幫派、武館、鏢局、商會、船隊、報館、書院、醫館聯盟、家族、山寨與新門派。</p><div class='detail-grid'><div class='detail'><h4>共享世界</h4><p>資產、物資、證據、人物與地點都由所有玩家共用，不建立個人副本。</p></div><div class='detail'><h4>來源與去向</h4><p>每筆金錢、貨物、所有權、案件與組織決策都需有來源、轉移、持有人與結果。</p></div><div class='detail'><h4>間接影響</h4><p>玩家可透過囤積、運輸、雇用、報案、宣傳、停工、投票與契約影響未曾見面的其他玩家。</p></div><div class='detail'><h4>風險與反制</h4><p>任何權力都會帶來成本、責任、法律風險、內部反對與資源壓力，避免永久壟斷。</p></div></div>
+    <div class="check">
+      <strong>章節落地檢查：</strong>
+      <span>是否影響玩家選擇</span><span>是否有資料狀態</span>
+      <span>是否有時間與成本</span><span>是否能被其他角色感知</span>
+      <span>是否留下歷史</span>
+    </div>
+        </article>
+        <article class="chapter" id="b6-c15" data-title="組織章程與繼承">
+          <div class="chapter-no">06.15</div>
+          <h3>組織章程與繼承</h3>
+          <p>宗旨、職位、財產、決策、懲罰、外交與接班制度全部可配置。</p><div class='detail-grid'><div class='detail'><h4>共享世界</h4><p>資產、物資、證據、人物與地點都由所有玩家共用，不建立個人副本。</p></div><div class='detail'><h4>來源與去向</h4><p>每筆金錢、貨物、所有權、案件與組織決策都需有來源、轉移、持有人與結果。</p></div><div class='detail'><h4>間接影響</h4><p>玩家可透過囤積、運輸、雇用、報案、宣傳、停工、投票與契約影響未曾見面的其他玩家。</p></div><div class='detail'><h4>風險與反制</h4><p>任何權力都會帶來成本、責任、法律風險、內部反對與資源壓力，避免永久壟斷。</p></div></div>
+    <div class="che
