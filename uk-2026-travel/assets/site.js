@@ -3,6 +3,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 async function initAttractions(){
  const m=location.pathname.match(/day-(\d+)\.html$/);if(!m||q('.attraction-guide'))return;
  const day=Number(m[1]);if(day<2||day>7)return;
+ if(!q('link[data-attraction-css]')){const link=document.createElement('link');link.rel='stylesheet';link.href='assets/attractions.css?v=photos-20260731';link.dataset.attractionCss='';document.head.appendChild(link)}
  const content=q('.content-section');if(!content)return;
  try{
   const file=day<=4?'assets/attractions-2-4.json':'assets/attractions-5-7.json';
