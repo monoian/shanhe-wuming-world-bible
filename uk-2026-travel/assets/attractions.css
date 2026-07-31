@@ -20,6 +20,8 @@
 .attraction-head{display:flex;align-items:center;gap:13px;margin-bottom:18px}
 .spot-no{display:grid;place-items:center;flex:0 0 44px;width:44px;height:44px;border-radius:50%;background:var(--navy);color:#fff;font:800 13px/1 Georgia,serif;box-shadow:0 8px 18px rgba(16,42,67,.16)}
 .attraction-head h3{margin:0;color:var(--navy);font:700 clamp(24px,2.7vw,34px)/1.18 Georgia,"Noto Serif TC","PMingLiU",serif;letter-spacing:.01em}
+.spot-summary{margin:-4px 0 16px;padding:12px 14px;border-radius:13px;background:#f2f6f9;color:#526579;font-size:13px;line-height:1.65;border-left:4px solid #2a7f9e}
+.spot-summary b{color:var(--navy)}
 .tip-columns{display:grid;grid-template-columns:1fr 1fr;gap:13px}
 .tip-box{border:1px solid var(--line);border-radius:16px;padding:15px 16px;background:#fbfcfd}
 .tip-box.nearby{border-top:4px solid #2a7f9e}
@@ -29,7 +31,7 @@
 .tip-box li+li{margin-top:5px}
 .spot-tip{margin:14px 0 0;padding:12px 14px;border-radius:13px;background:#fff8e8;color:#655b45;font-size:12.5px;line-height:1.6;border-left:4px solid var(--gold)}
 .spot-tip b{color:var(--navy)}
-.spot-actions,.spot-summary,.spot-photo-label{display:none!important}
+.spot-actions,.spot-photo-label{display:none!important}
 .attraction-note{margin:16px 2px 0;color:var(--muted);font-size:10.5px;line-height:1.6}
 .attraction-media.image-failed{display:grid;place-items:center;min-height:340px}
 .attraction-media.image-failed::before{display:none}
@@ -54,6 +56,7 @@
  .attraction-head{margin-bottom:14px}
  .spot-no{flex-basis:36px;width:36px;height:36px;font-size:11px}
  .attraction-head h3{font-size:25px}
+ .spot-summary{margin:-2px 0 13px;padding:10px 12px;font-size:12.5px}
  .tip-columns{gap:9px}.tip-box{padding:12px 13px}.tip-box h4{font-size:14px}.tip-box ul{font-size:12.5px}
  .spot-tip{font-size:12px}
 }
