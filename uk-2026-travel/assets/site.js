@@ -20,7 +20,7 @@ simplifyDayPage();
 
 async function initAttractions(){
  if(dayNumber<2||dayNumber>7||q('.attraction-guide'))return;
- if(!q('link[data-attraction-css]')){const link=document.createElement('link');link.rel='stylesheet';link.href='assets/attractions.css?v=compact-20260731-2';link.dataset.attractionCss='';document.head.appendChild(link)}
+ if(!q('link[data-attraction-css]')){const link=document.createElement('link');link.rel='stylesheet';link.href='assets/attractions.css?v=photo-size-20260731-3';link.dataset.attractionCss='';document.head.appendChild(link)}
  const content=q('.content-section');if(!content)return;
  try{
   const file=dayNumber<=4?'assets/attractions-2-4.json':'assets/attractions-5-7.json';
@@ -29,7 +29,7 @@ async function initAttractions(){
   const cards=items.map((x,i)=>`<article class="attraction-card"><figure class="attraction-media"><img src="${x.photo}" alt="${esc(x.name)}景點照片" loading="lazy" decoding="async" referrerpolicy="no-referrer"><figcaption><a target="_blank" rel="noopener" href="${x.source}">照片：${esc(x.author)}</a>・<a target="_blank" rel="license noopener" href="${x.licenseUrl}">${esc(x.license)}</a></figcaption></figure><div class="attraction-body"><div class="attraction-head"><span class="spot-no">${String(i+1).padStart(2,'0')}</span><h3>${esc(x.name)}</h3></div><div class="tip-columns"><section class="tip-box nearby"><h4>周遭還能逛</h4><ul>${x.nearby.map(v=>`<li>${esc(v)}</li>`).join('')}</ul></section><section class="tip-box buy"><h4>推薦買什麼</h4><ul>${x.souvenirs.map(v=>`<li>${esc(v)}</li>`).join('')}</ul></section></div><p class="spot-tip"><b>時間有限：</b>${esc(x.tip)}</p></div></article>`).join('');
   const section=document.createElement('section');
   section.className='attraction-guide';section.id='attraction-guide';
-  section.innerHTML=`<div class="section-heading attraction-heading"><div><span class="eyebrow">附近逛街・紀念品</span><h2>景點周遭可以逛什麼、買什麼</h2></div><p>照片縮小呈現，保留最實用的周邊店家與紀念品建議。</p></div><div class="attraction-grid">${cards}</div><p class="attraction-note">店家營業時間、庫存與團體自由時間可能異動，實際以領隊集合時間及現場公告為準。</p>`;
+  section.innerHTML=`<div class="section-heading attraction-heading"><div><span class="eyebrow">附近逛街・紀念品</span><h2>景點周遭可以逛什麼、買什麼</h2></div><p>照片以適中尺寸呈現，保留最實用的周邊店家與紀念品建議。</p></div><div class="attraction-grid">${cards}</div><p class="attraction-note">店家營業時間、庫存與團體自由時間可能異動，實際以領隊集合時間及現場公告為準。</p>`;
   content.append(section);
   qa('.attraction-media img',section).forEach(img=>img.addEventListener('error',()=>{const media=img.closest('.attraction-media');if(media)media.classList.add('image-failed');img.remove()}));
  }catch(e){console.warn('景點周邊購物資訊暫時無法載入',e)}
