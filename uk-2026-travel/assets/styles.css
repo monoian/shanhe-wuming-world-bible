@@ -10,7 +10,7 @@
 .nearby-head{position:sticky;top:0;z-index:2;display:flex;align-items:center;justify-content:space-between;padding:17px 18px;background:#102a43;color:#fff}
 .nearby-head small{display:block;color:#f0d17b;font-weight:800}.nearby-head h2{margin:0;font-size:23px}.nearby-close{border:0;background:rgba(255,255,255,.14);color:#fff;width:40px;height:40px;border-radius:50%;font-size:28px;line-height:1;cursor:pointer}
 .nearby-body{padding:17px}.nearby-street{margin:0 0 12px;padding:12px 14px;border-radius:13px;background:#fff;border:1px solid #d9e0e7;font-weight:800;color:#102a43}
-.nearby-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}.nearby-actions button,.nearby-radii button,.nearby-tabs button{border:1px solid #ccd6df;background:#fff;color:#102a43;border-radius:11px;padding:9px 8px;font-weight:800;cursor:pointer}
+.nearby-actions{display:grid;grid-template-columns:1fr;gap:8px}.nearby-actions button,.nearby-radii button,.nearby-tabs button{border:1px solid #ccd6df;background:#fff;color:#102a43;border-radius:11px;padding:9px 8px;font-weight:800;cursor:pointer}
 .nearby-actions button:first-child{background:#102a43;color:#fff}.nearby-actions button.active{background:#b31b34;color:#fff;border-color:#b31b34}
 .nearby-radii{border:0;padding:0;margin:16px 0 10px;display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.nearby-radii legend{grid-column:1/-1;font-size:12px;font-weight:850;color:#64748b;margin-bottom:5px}.nearby-radii button.active,.nearby-tabs button.active{background:#c89b3c;color:#fff;border-color:#c89b3c}
 .nearby-tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-bottom:12px}.nearby-status{font-size:13px;color:#526579;padding:8px 2px}
