@@ -43,21 +43,3 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
 
 const list=q('[data-checklist]');if(list){const key='uk-trip-checks-v3',boxes=qa('[data-check]',list),bar=q('#progressBar'),txt=q('#progressText');let state={};try{state=JSON.parse(localStorage.getItem(key)||'{}')}catch(e){};boxes.forEach(b=>{b.checked=!!state[b.dataset.check];b.addEventListener('change',save)});function save(){state={};boxes.forEach(b=>state[b.dataset.check]=b.checked);localStorage.setItem(key,JSON.stringify(state));render()}function render(){const n=boxes.filter(b=>b.checked).length;txt.textContent=`${n} / ${boxes.length}`;bar.style.width=`${n/boxes.length*100}%`}q('[data-check-all]')?.addEventListener('click',()=>{boxes.forEach(b=>b.checked=true);save()});q('[data-reset-checks]')?.addEventListener('click',()=>{boxes.forEach(b=>b.checked=false);save()});render()}
 })();
-
-;(()=>{
-if(document.getElementById('nearbyExploreButton'))return;
-const searches=[
- {icon:'◎',title:'我的目前位置',note:'在 Google Maps 顯示現在的位置',url:'https://www.google.com/maps/@?api=1&map_action=map'},
- {icon:'🛍️',title:'好逛的店',note:'商場、百貨與特色商店',url:'https://www.google.com/maps/search/?api=1&query=shopping+near+me'},
- {icon:'🍽️',title:'吃喝／飲料',note:'餐廳、咖啡店與飲料店',url:'https://www.google.com/maps/search/?api=1&query=restaurants+and+cafes+near+me'},
- {icon:'🎁',title:'紀念品',note:'禮品店與紀念品店',url:'https://www.google.com/maps/search/?api=1&query=souvenir+shops+near+me'}
-];
-const button=document.createElement('button');button.id='nearbyExploreButton';button.className='nearby-fab';button.type='button';button.textContent='📍 周邊探索';button.setAttribute('aria-controls','nearbyExplorePanel');button.setAttribute('aria-expanded','false');
-const panel=document.createElement('aside');panel.id='nearbyExplorePanel';panel.className='nearby-panel';panel.setAttribute('aria-hidden','true');panel.innerHTML=`<div class="nearby-head"><div><small>全部使用 Google Maps</small><h2>📍 周邊探索</h2></div><button class="nearby-close" type="button" aria-label="關閉">×</button></div><div class="nearby-body"><p class="nearby-intro">選擇想找的項目，Google Maps 會依手機目前位置顯示附近結果。</p><div class="nearby-google-grid">${searches.map(x=>`<a class="nearby-google-link" href="${x.url}" target="_blank" rel="noopener"><span class="nearby-google-icon" aria-hidden="true">${x.icon}</span><span><strong>${x.title}</strong><small>${x.note}</small></span><span class="nearby-google-arrow" aria-hidden="true">›</span></a>`).join('')}</div><p class="nearby-privacy">定位與店家搜尋由 Google Maps 處理；本站不讀取、不保存你的 GPS 位置。</p></div>`;
-document.body.append(button,panel);
-const closeButton=panel.querySelector('.nearby-close');
-const open=()=>{panel.classList.add('open');panel.setAttribute('aria-hidden','false');button.setAttribute('aria-expanded','true');closeButton.focus()};
-const close=()=>{panel.classList.remove('open');panel.setAttribute('aria-hidden','true');button.setAttribute('aria-expanded','false');button.focus()};
-button.addEventListener('click',open);closeButton.addEventListener('click',close);
-document.addEventListener('keydown',e=>{if(e.key==='Escape'&&panel.classList.contains('open'))close()});
-})();
