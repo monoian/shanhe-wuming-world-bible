@@ -3,31 +3,39 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#132b42">
-<meta name="description" content="IAN 英國 8天6夜實戰攻略：每日正式行程、每段車程、自由時間試算與官方查核的景點提醒。">
-<title>出發清單｜IAN 英國實戰攻略</title>
-<link rel="stylesheet" href="assets/styles.css?v=rebuild-20260905-1">
-<script src="assets/app.js?v=rebuild-20260905-1" defer>
+<meta name="theme-color" content="#153a38">
+<meta name="description" content="英國 8天6夜團員隨行指南：每天去哪、集合前能去哪、飯店導航、景點必看與出發清單。">
+<title>我的出發清單｜英國團員隨行指南</title>
+<link rel="stylesheet" href="assets/styles.css?v=group-20260905-1">
+<script src="assets/app.js?v=group-20260905-1" defer>
 </script>
 </head>
 <body data-day="0" data-trip-start="2026-09-08" data-trip-end="2026-09-15" data-trip-days="8" data-first-free="2" data-last-free="7">
 <a class="skip" href="#main">跳到內容</a>
 <header class="site-header">
 <a class="brand" href="index.html">
-<span class="brand-icon" aria-hidden="true">I</span>
-<span>IAN <small>UK FIELD GUIDE</small>
+<span class="brand-icon" aria-hidden="true">UK</span>
+<span>英國隨行指南<small>團員共用・2026</small>
 </span>
 </a>
-<a class="header-date" href="index.html#days">08—15 SEP 2026</a>
+<a class="header-date" href="index.html#days">8 天行程 <span aria-hidden="true">↗</span>
+</a>
 </header>
 <main id="main">
 <div class="page-intro">
-<p class="eyebrow">BEFORE YOU GO</p>
-<h1>出發清單</h1>
-<p class="lead">勾選只記在這台裝置；換手機、清除瀏覽資料或無痕模式不會同步。</p>
+<p class="eyebrow">出發前，一項項確認</p>
+<h1>我的出發清單</h1>
+<p class="lead">每位團員各自勾選，只記在目前這台手機。</p>
 </div>
-<p class="check-progress" role="status">
-<strong id="check-count">0</strong> / 16 已完成</p>
+<div class="check-progress" role="status">
+<span>準備進度</span>
+<strong>
+<span id="check-count">0</span> / 16</strong>
+<progress id="check-progress" max="16" value="0" aria-label="清單完成進度">
+</progress>
+</div>
+<section class="check-group">
+<h2>證件與付款</h2>
 <div class="check-list">
 <label>
 <input type="checkbox" data-check="passport">
@@ -37,6 +45,19 @@
 <input type="checkbox" data-check="booking">
 <span>團體手冊、航班、飯店地址截圖</span>
 </label>
+<label>
+<input type="checkbox" data-check="cards">
+<span>信用卡、英鎊小額現金</span>
+</label>
+<label>
+<input type="checkbox" data-check="tickets">
+<span>影城、皇宮票券及入場時間問領隊</span>
+</label>
+</div>
+</section>
+<section class="check-group">
+<h2>手機與隨身用品</h2>
+<div class="check-list">
 <label>
 <input type="checkbox" data-check="phone">
 <span>手機、充電線、英規轉接頭</span>
@@ -50,13 +71,18 @@
 <span>eSIM／漫遊啟用步驟與離線截圖</span>
 </label>
 <label>
-<input type="checkbox" data-check="cards">
-<span>信用卡、英鎊小額現金</span>
+<input type="checkbox" data-check="meds">
+<span>個人藥物、處方與需要的飲食溝通卡</span>
 </label>
 <label>
-<input type="checkbox" data-check="meds">
-<span>個人藥物、處方與牛奶過敏餐卡</span>
+<input type="checkbox" data-check="bag">
+<span>日用小包，留意皇宮尺寸限制</span>
 </label>
+</div>
+</section>
+<section class="check-group">
+<h2>衣物與行李</h2>
+<div class="check-list">
 <label>
 <input type="checkbox" data-check="rain">
 <span>防水外套、小傘、好走鞋</span>
@@ -66,24 +92,21 @@
 <span>分層衣物、保暖薄外套</span>
 </label>
 <label>
-<input type="checkbox" data-check="bag">
-<span>日用小包，留意皇宮尺寸限制</span>
+<input type="checkbox" data-check="packing">
+<span>行李空間、液體與易碎品收納</span>
 </label>
+</div>
+</section>
+<section class="check-group">
+<h2>出發前再確認</h2>
+<div class="check-list">
 <label>
 <input type="checkbox" data-check="hotel">
 <span>存好三間飯店地址與電話</span>
 </label>
 <label>
-<input type="checkbox" data-check="milk">
-<span>團餐提前通知：不吃牛肉＋牛奶過敏</span>
-</label>
-<label>
-<input type="checkbox" data-check="packing">
-<span>行李空間、液體與易碎品收納</span>
-</label>
-<label>
-<input type="checkbox" data-check="tickets">
-<span>影城、皇宮票券及入場時間問領隊</span>
+<input type="checkbox" data-check="dietary">
+<span>有特殊飲食需求，出發前先通知領隊</span>
 </label>
 <label>
 <input type="checkbox" data-check="meeting">
@@ -94,11 +117,11 @@
 <span>出發前檢查門窗、電源與接送安排</span>
 </label>
 </div>
-<p id="storage-note" class="field-hint">
-</p>
-<a class="button primary" href="allergy.html">開啟英文飲食卡 →</a>
-<section>
-<h2>出發當天</h2>
+</section>
+<p id="storage-note" class="field-hint">換手機或清除瀏覽資料，勾選不會同步。</p>
+<a class="button secondary" href="allergy.html">英文溝通與飲食卡 →</a>
+<section class="attention">
+<h2>出發當天再看一次</h2>
 <ul>
 <li>9/08 06:00 桃園第一航廈集合，CI-81 08:50 起飛。</li>
 <li>護照、手機、藥物與行動電源放隨身；托運額度依本團機票確認。</li>
@@ -107,17 +130,21 @@
 </section>
 </main>
 <footer>
-<p>固定行程依 9/04 正式手冊；實際集合、票券與調整以領隊通知為準。</p>
-<p>攻略查核 2026/09/05 · 路程與自由時間皆為保守推估。</p>
+<p>集合時間與行程調整，以領隊通知為準。</p>
+<p>行程依 9/04 手冊・攻略查核 09/05・IAN 整理</p>
 <a href="guide.html#uncertain">查看待確認事項</a>
-<span class="build-version">rebuild-20260905-1</span>
 </footer>
 <nav class="bottom-nav" aria-label="主要導覽">
-<a href="index.html">首頁</a>
-<a href="guide.html">攻略</a>
-<a href="hotels.html">飯店</a>
-<a href="allergy.html">飲食卡</a>
-<a href="checklist.html" aria-current="page">清單</a>
+<a href="index.html">
+<span aria-hidden="true">⌂</span>首頁</a>
+<a href="day-1.html" data-today="schedule">
+<span aria-hidden="true">▤</span>行程</a>
+<a href="day-2.html?mode=day#free-time" data-today="free">
+<span aria-hidden="true">◷</span>自由時間</a>
+<a href="hotels.html">
+<span aria-hidden="true">⌑</span>飯店</a>
+<a href="guide.html" aria-current="page">
+<span aria-hidden="true">⋯</span>更多</a>
 </nav>
 </body>
 </html>

@@ -59,12 +59,32 @@
   const clock = londonClock();
   const trip = document.body.dataset;
   const tripDay = Math.min(Number(trip.tripDays), Math.max(1, dayOffset(clock.date, trip.tripStart) + 1));
-  document.querySelectorAll('[data-today]').forEach(link => {
-    const kind = link.dataset.today, n = kind === 'schedule' ? tripDay : Math.min(Number(trip.lastFree), Math.max(Number(trip.firstFree), tripDay));
-    link.href = `day-${n}.html` + (kind === 'schedule' ? '' : `?mode=${kind === 'night' ? 'night' : n === 7 ? 'airport' : 'day'}#free-time`);
-  });
+  function setDayLinks(n) {
+    document.querySelectorAll('[data-today]').forEach(link => {
+      const kind = link.dataset.today, target = kind === 'schedule' ? n : Math.min(Number(trip.lastFree), Math.max(Number(trip.firstFree), n));
+      link.href = `day-${target}.html` + (kind === 'schedule' ? '' : `?mode=${kind === 'night' ? 'night' : target === 7 ? 'airport' : 'day'}#free-time`);
+    });
+  }
+  setDayLinks(tripDay);
   const todayNote = document.querySelector('.today-note');
-  if (todayNote && clock.date >= trip.tripStart && clock.date <= trip.tripEnd) todayNote.textContent = `英國現在 ${clock.date} ${clock.time} · 今天 D${tripDay}。`;
+  const homeDay = document.querySelector('[data-home-day]');
+  if (homeDay) {
+    const requestedDay = Number(new URLSearchParams(location.search).get('day'));
+    function selectHomeDay(n, chosen) {
+      homeDay.value = String(n); setDayLinks(n);
+      document.querySelectorAll('[data-day-preview]').forEach(card => { card.hidden = Number(card.dataset.dayPreview) !== n; });
+      const inTrip = clock.date >= trip.tripStart && clock.date <= trip.tripEnd;
+      todayNote.textContent = chosen ? `正在查看 D${n}。` : inTrip ? `英國現在 ${clock.time}・今天 D${n}。` : clock.date < trip.tripStart ? '出發前先看 D1，也可在上方選其他日期。' : '旅程已結束，可以選日期回看攻略。';
+      if (n === 1 || n === 8) todayNote.textContent += ` 當天沒有自由活動，試算入口先帶你看 D${n === 1 ? 2 : 7}。`;
+    }
+    selectHomeDay(requestedDay >= 1 && requestedDay <= 8 && Number.isInteger(requestedDay) ? requestedDay : tripDay, requestedDay >= 1 && requestedDay <= 8 && Number.isInteger(requestedDay));
+    homeDay.addEventListener('change', () => {
+      const n = Number(homeDay.value); selectHomeDay(n, true);
+      const url = new URL(location.href); url.searchParams.set('day', String(n)); history.replaceState(null, '', url);
+    });
+  }
+  const daySelect = document.querySelector('[data-day-select]');
+  if (daySelect) daySelect.addEventListener('change', () => { location.href = `day-${daySelect.value}.html`; });
 
   const section = document.querySelector('.free-section');
   if (section) {
@@ -73,14 +93,32 @@
     const panel = section.querySelector('[role="tabpanel"]'), number = section.querySelector('.result-number'), detail = section.querySelector('.result-detail');
     const note = section.querySelector('.clock-note');
     const states = new Map();
-    let active = -1, disabled = false;
+    let active = -1, disabled = false, showUnavailable = false;
+    const toggleUnavailable = section.querySelector('#toggle-unavailable');
+    const optionSummary = section.querySelector('.option-summary');
+    const emptyOptions = section.querySelector('.no-options');
+    function filterOptions() {
+      const cards = [...optionLists[active].querySelectorAll('[data-option]')];
+      const counts = { yes: 0, tight: 0, no: 0 };
+      cards.forEach(card => {
+        if (card.dataset.level) counts[card.dataset.level]++;
+        card.hidden = !showUnavailable && card.dataset.level === 'no';
+      });
+      optionSummary.textContent = disabled ? '' : cards.some(c => !c.dataset.level) ? '請重新計算，更新可去的方案。' : `${counts.yes} 個可以・${counts.tight} 個較趕／需確認`;
+      toggleUnavailable.hidden = disabled || counts.no === 0;
+      toggleUnavailable.textContent = showUnavailable ? '收起不建議方案' : `查看 ${counts.no} 個不建議方案及原因`;
+      toggleUnavailable.setAttribute('aria-expanded', String(showUnavailable));
+      emptyOptions.hidden = disabled || cards.some(c => !c.dataset.level) || counts.yes + counts.tight > 0;
+      section.querySelector('.result-legend').hidden = disabled;
+    }
+    toggleUnavailable.addEventListener('click', () => { showUnavailable = !showUnavailable; filterOptions(); });
     function saveState() {
       if (active >= 0) states.set(active, { now: form.elements.now.value, end: form.elements.end.value, nowDay: form.elements.nowDay.value, endDay: form.elements.endDay.value, buffer: form.elements.buffer.value, note: note.textContent });
     }
     function calculate(event) {
       if (event) event.preventDefault();
       if (disabled) {
-        number.textContent = '—'; detail.textContent = '本時段沒有可離團的自由活動，請切換其他時段。';
+        number.textContent = '—'; detail.textContent = '本時段未安排自由活動，請切換其他時段。'; filterOptions();
         return;
       }
       const w = windowResult(form.elements.now.value, form.elements.end.value, form.elements.nowDay.value, form.elements.endDay.value, form.elements.buffer.value);
@@ -96,10 +134,11 @@
         card.querySelector('.option-reason').textContent = r.reason;
         card.querySelector('.buffer-label').textContent = w.valid ? w.buffer : '—';
       });
+      filterOptions();
       saveState();
     }
     function setMode(index, fromUser) {
-      saveState(); active = index;
+      saveState(); active = index; showUnavailable = false;
       tabs.forEach((t, j) => { t.setAttribute('aria-selected', String(j === index)); t.tabIndex = j === index ? 0 : -1; });
       infos.forEach((x, j) => { x.hidden = j !== index; });
       optionLists.forEach((x, j) => { x.hidden = j !== index; });
@@ -113,7 +152,7 @@
       form.elements.nowDay.value = s ? s.nowDay : '0';
       form.elements.endDay.value = s ? s.endDay : '0';
       form.elements.buffer.value = s ? s.buffer : win.buffer;
-      note.textContent = s ? s.note : '試算模式：預填推估起點，不代表現在真的有空。時間均為英國當地時間。';
+      note.textContent = s ? s.note : '先用推估時段試算；領隊公布後，請改填集合時間。以下皆為英國時間。';
       if (!s && clock.date === section.dataset.date && !disabled) {
         form.elements.now.value = clock.time;
         note.textContent = `已帶入英國 ${clock.date} ${clock.time}；集合時間仍是推估，請以領隊通知替換。`;
@@ -138,12 +177,13 @@
     form.addEventListener('submit', calculate);
     function markDirty() {
       number.textContent = '待重算';
-      detail.textContent = '輸入已變更，請按「重新計算」更新結果。';
+      detail.textContent = '時間已變更，請按「重新計算」更新結果。';
       optionLists[active].querySelectorAll('.option-card').forEach(card => {
         delete card.dataset.level;
         const verdict = card.querySelector('.verdict'); verdict.textContent = '待重新計算'; verdict.className = 'verdict pending';
         card.querySelector('.option-reason').textContent = '請用更新後的時間重新計算。';
       });
+      filterOptions();
     }
     form.addEventListener('input', markDirty);
     form.addEventListener('change', markDirty);
@@ -153,6 +193,12 @@
       form.elements.now.value = c.time; form.elements.nowDay.value = String(offset);
       note.textContent = `已帶入英國 ${c.date} ${c.time}；請確認結束日期與領隊集合時間。`; calculate();
     });
+    document.querySelectorAll('[data-free-link]').forEach(link => link.addEventListener('click', event => {
+      const next = tabs.findIndex(t => t.dataset.kind === link.dataset.freeLink);
+      if (next < 0) return;
+      event.preventDefault(); setMode(next, true);
+      location.hash = 'free-time'; section.scrollIntoView({ block: 'start' });
+    }));
     const requested = new URLSearchParams(location.search).get('mode');
     const initial = tabs.findIndex(t => t.dataset.kind === requested);
     setMode(initial < 0 ? 0 : initial, false);
@@ -172,7 +218,7 @@
     let checked = {};
     try { checked = JSON.parse(localStorage.getItem(key) || '{}'); if (!checked || typeof checked !== 'object' || Array.isArray(checked)) checked = {}; }
     catch (_) { storageNote.textContent = '目前無法讀取本機儲存；仍可暫時勾選，離開後可能不保留。'; }
-    const update = () => { count.textContent = checks.filter(c => c.checked).length; };
+    const update = () => { const done = checks.filter(c => c.checked).length; count.textContent = done; document.getElementById('check-progress').value = done; };
     checks.forEach(c => {
       c.checked = checked[c.dataset.check] === true;
       c.addEventListener('change', () => {
@@ -183,9 +229,14 @@
     });
     update();
   }
-  const copy = document.getElementById('copy-allergy');
-  if (copy) copy.addEventListener('click', async () => {
-    try { await navigator.clipboard.writeText(document.getElementById('allergy-text').textContent); document.getElementById('copy-result').textContent = '已複製英文餐卡。'; }
-    catch (_) { document.getElementById('copy-result').textContent = '無法自動複製；請長按英文選取，或直接把這頁給工作人員看。'; }
-  });
+  document.querySelectorAll('[data-copy]').forEach(button => button.addEventListener('click', async () => {
+    const target = document.getElementById(button.dataset.copy);
+    const status = button.parentElement.querySelector('.copy-result');
+    try {
+      await navigator.clipboard.writeText(target.textContent.trim());
+      status.textContent = button.dataset.copy === 'site-link' ? '已複製網站連結，可以貼到團員群組。' : '已複製英文，也可以直接出示這頁。';
+    } catch (_) {
+      status.textContent = '請長按上方文字複製，或直接把這頁給對方看。';
+    }
+  }));
 })(typeof globalThis !== 'undefined' ? globalThis : this);

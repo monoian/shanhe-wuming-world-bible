@@ -28,7 +28,7 @@ assert len(pages)==17,len(pages)
 map_links=set();internal=0
 for name,p in pages.items():
     assert len(p.ids)==len(set(p.ids)),(name,'duplicate IDs')
-    assert p.scripts==['assets/app.js?v=rebuild-20260905-1'],(name,p.scripts)
+    assert p.scripts==['assets/app.js?v='+json.loads((R/'assets/itinerary.json').read_text())['version']],(name,p.scripts)
     assert p.iframes==0,(name,'unexpected iframe')
     for old in ['time-tool','time-windows','clean-view','site-clean-heading','Overpass','leaflet','British Motor Museum','Regent Street']:
         assert old not in p.text,(name,old)

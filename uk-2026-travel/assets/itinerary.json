@@ -1,5 +1,5 @@
 {
-  "version": "rebuild-20260905-1",
+  "version": "group-20260905-1",
   "handbook": "20260908英國(0904).pdf",
   "checked": "2026-09-05",
   "timezone": "Europe/London",
@@ -1237,7 +1237,7 @@
     ],
     [
       "meds",
-      "個人藥物、處方與牛奶過敏餐卡"
+      "個人藥物、處方與需要的飲食溝通卡"
     ],
     [
       "rain",
@@ -1256,8 +1256,8 @@
       "存好三間飯店地址與電話"
     ],
     [
-      "milk",
-      "團餐提前通知：不吃牛肉＋牛奶過敏"
+      "dietary",
+      "有特殊飲食需求，出發前先通知領隊"
     ],
     [
       "packing",
@@ -1294,5 +1294,60 @@
     "9/08 06:00 桃園第一航廈集合，CI-81 08:50 起飛。",
     "護照、手機、藥物與行動電源放隨身；托運額度依本團機票確認。",
     "把首頁、三間飯店地址與領隊實際聯絡方式截圖存在手機；第一次開頁仍需要網路。"
+  ],
+  "checklistGroups": [
+    {
+      "title": "證件與付款",
+      "ids": [
+        "passport",
+        "booking",
+        "cards",
+        "tickets"
+      ]
+    },
+    {
+      "title": "手機與隨身用品",
+      "ids": [
+        "phone",
+        "power",
+        "internet",
+        "meds",
+        "bag"
+      ]
+    },
+    {
+      "title": "衣物與行李",
+      "ids": [
+        "rain",
+        "layers",
+        "packing"
+      ]
+    },
+    {
+      "title": "出發前再確認",
+      "ids": [
+        "hotel",
+        "dietary",
+        "meeting",
+        "home"
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "title": "看菜單與飲食資訊",
+      "en": "Could I see the menu and the allergen information, please?",
+      "zh": "請問可以給我菜單和過敏原資訊嗎？"
+    },
+    {
+      "title": "找洗手間",
+      "en": "Where are the toilets, please?",
+      "zh": "請問洗手間在哪裡？"
+    },
+    {
+      "title": "購物前確認現貨",
+      "en": "Do you have this in stock? Can I collect it today?",
+      "zh": "請問有現貨嗎？今天可以取貨嗎？"
+    }
   ]
 }
