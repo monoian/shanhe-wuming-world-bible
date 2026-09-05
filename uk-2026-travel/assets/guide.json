@@ -1,0 +1,1136 @@
+{
+  "checked": "2026-09-05",
+  "sources": {
+    "market": {
+      "title": "Cambridge City Council｜市集時段",
+      "url": "https://www.cambridge.gov.uk/cambridge-market"
+    },
+    "ryder": {
+      "title": "Ryder & Amies｜King’s Parade 店",
+      "url": "https://www.ryderamies.co.uk/visit-our-store/"
+    },
+    "trinity": {
+      "title": "Trinity College｜牛頓蘋果樹",
+      "url": "https://www.trin.cam.ac.uk/about/gardens/"
+    },
+    "warwick-hours": {
+      "title": "Warwick Castle｜每日營業月曆",
+      "url": "https://www.warwick-castle.com/plan-your-day/castle-information/opening-hours/"
+    },
+    "warwick-shows": {
+      "title": "Warwick Castle｜2026 表演",
+      "url": "https://www.warwick-castle.com/explore/shows/shows-attractions/"
+    },
+    "warwick-shops": {
+      "title": "Warwick Castle｜商店位置與差異",
+      "url": "https://www.warwick-castle.com/plan-your-day/before-you-arrive/gifts-souvenirs/"
+    },
+    "transport": {
+      "title": "Coventry Transport Museum｜開放與展品",
+      "url": "https://www.transport-museum.com/"
+    },
+    "transport-shop": {
+      "title": "Coventry Transport Museum｜館店",
+      "url": "https://www.transport-museum.com/visiting/Shopping.aspx"
+    },
+    "christ-closure": {
+      "title": "Christ Church｜2026 已知關閉",
+      "url": "https://www.chch.ox.ac.uk/visit/known-closures"
+    },
+    "christ": {
+      "title": "Christ Church｜參觀與票券",
+      "url": "https://www.chch.ox.ac.uk/visit/tickets-and-information"
+    },
+    "christ-tour": {
+      "title": "Christ Church｜官方參觀路線",
+      "url": "https://www.chch.ox.ac.uk/visit/guided-tours"
+    },
+    "bicester-hours": {
+      "title": "Bicester Village｜營業日曆",
+      "url": "https://www.thebicestercollection.com/bicester-village/en/opening-hours"
+    },
+    "bicester-services": {
+      "title": "Bicester Village｜購物服務",
+      "url": "https://www.thebicestercollection.com/bicester-village/en/visit/services"
+    },
+    "bicester-bags": {
+      "title": "Bicester Village｜Hands-free 與 Bag Drop",
+      "url": "https://www.thebicestercollection.com/bicester-village/en/services/hands-free-shopping/"
+    },
+    "bicester-brands": {
+      "title": "Bicester Village｜品牌目錄",
+      "url": "https://www.thebicestercollection.com/bicester-village/en/brands/"
+    },
+    "barbour": {
+      "title": "Bicester｜Barbour",
+      "url": "https://www.thebicestercollection.com/bicester-village/en/brands/barbour/"
+    },
+    "mulberry": {
+      "title": "Bicester｜Mulberry",
+      "url": "https://www.thebicestercollection.com/bicester-village/en/brands/mulberry/"
+    },
+    "molton": {
+      "title": "Bicester｜Molton Brown",
+      "url": "https://www.thebicestercollection.com/bicester-village/en/brands/molton-brown/"
+    },
+    "bicester-food": {
+      "title": "Bicester｜餐飲介紹",
+      "url": "https://www.thebicestercollection.com/bicester-village/zh-CN/company/about/"
+    },
+    "wb-events": {
+      "title": "Warner Bros. Studio｜2026 正式活動",
+      "url": "https://www.wbstudiotour.co.uk/the-experience/whats-on/"
+    },
+    "wb-info": {
+      "title": "Warner Bros. Studio｜寄物、拍照與入場",
+      "url": "https://www.wbstudiotour.co.uk/plan-your-visit/visit-information/"
+    },
+    "wb-shops": {
+      "title": "Warner Bros. Studio｜三間館店",
+      "url": "https://www.wbstudiotour.co.uk/the-experience/studio-shops/"
+    },
+    "wb-food": {
+      "title": "Warner Bros. Studio｜Backlot Café 與 Butterbeer",
+      "url": "https://www.wbstudiotour.co.uk/the-experience/food-drink/"
+    },
+    "kings": {
+      "title": "Harry Potter Shop｜King’s Cross 店",
+      "url": "https://harrypottershop.co.uk/pages/kings-cross"
+    },
+    "kings-hours": {
+      "title": "Harry Potter Shop｜倫敦店營業時間",
+      "url": "https://harrypottershop.com/pages/faqs/-what-are-the-london-kings-cross-store-opening-hours"
+    },
+    "kings-photo": {
+      "title": "Harry Potter Shop｜推車拍照時間",
+      "url": "https://harrypottershop.co.uk/pages/faqs/-what-are-the-trolley-photo-opportunity-opening-times"
+    },
+    "fortnum": {
+      "title": "Fortnum & Mason｜Piccadilly",
+      "url": "https://www.fortnumandmason.com/piccadilly"
+    },
+    "fortnum-hours": {
+      "title": "Fortnum & Mason｜各店營業時間",
+      "url": "https://www.fortnumandmason.com/our-stores"
+    },
+    "fortnum-floor": {
+      "title": "Fortnum & Mason｜樓層、茶與 Biscuitorium",
+      "url": "https://www.fortnumandmason.com/stories/plan-your-visit-to-fortnum-and-mason"
+    },
+    "hatchards": {
+      "title": "Hatchards｜Piccadilly 店",
+      "url": "https://www.hatchards.co.uk/shop/piccadilly"
+    },
+    "burlington": {
+      "title": "Burlington Arcade｜開放時間",
+      "url": "https://www.burlingtonarcade.com/"
+    },
+    "abbey": {
+      "title": "Westminster Abbey｜參觀規則",
+      "url": "https://www.westminster-abbey.org/visit-us"
+    },
+    "abbey-photo": {
+      "title": "Westminster Abbey｜拍照規則",
+      "url": "https://www.westminster-abbey.org/about/photography-in-the-abbey"
+    },
+    "parliament": {
+      "title": "UK Parliament｜Big Ben",
+      "url": "https://www.parliament.uk/visiting/visiting-and-tours/big-ben/"
+    },
+    "cruise": {
+      "title": "City Cruises｜午餐航班參考（船公司未確認）",
+      "url": "https://www.cityexperiences.com/london/city-cruises/lunch-cruise-river-thames/"
+    },
+    "bm": {
+      "title": "British Museum｜參觀與開放",
+      "url": "https://www.britishmuseum.org/visit"
+    },
+    "bm-route": {
+      "title": "British Museum｜一小時路線",
+      "url": "https://www.britishmuseum.org/visit/object-trails/one-hour-museum"
+    },
+    "bm-sutton": {
+      "title": "British Museum｜Room 41",
+      "url": "https://www.britishmuseum.org/collection/galleries/sutton-hoo-and-europe"
+    },
+    "bm-loan": {
+      "title": "British Museum｜Bayeux 展與借展安排",
+      "url": "https://www.britishmuseum.org/about-us/press/press-releases/bayeux-tapestry-displayed-british-museum"
+    },
+    "bm-shop": {
+      "title": "British Museum Shop｜Rosetta Stone 提袋",
+      "url": "https://www.britishmuseumshoponline.org/rosetta-stone-tote-bag.html"
+    },
+    "jrc": {
+      "title": "JRC Global Buffet｜Wembley 分店",
+      "url": "https://jrc-globalbuffet.com/restaurants/wembley/"
+    },
+    "park": {
+      "title": "The Royal Parks｜St James’s Park",
+      "url": "https://www.royalparks.org.uk/visit/parks/st-jamess-park"
+    },
+    "pelican": {
+      "title": "The Royal Parks｜鵜鶘與餵食",
+      "url": "https://www.royalparks.org.uk/visit/parks/st-jamess-park/pelicans-st-jamess-park"
+    },
+    "guard": {
+      "title": "Household Division｜換崗月曆",
+      "url": "https://www.householddivision.org.uk/changing-the-guard-calendar"
+    },
+    "palace": {
+      "title": "Royal Collection Trust｜Buckingham Palace",
+      "url": "https://www.rct.uk/visit/buckingham-palace"
+    },
+    "palace-info": {
+      "title": "Royal Collection Trust｜參觀、廁所、拍照",
+      "url": "https://www.rct.uk/visit/buckingham-palace/practical-information-for-visiting-buckingham-palace"
+    },
+    "palace-closure": {
+      "title": "Royal Collection Trust｜2026 開放／施工正式 PDF，第 3 頁",
+      "url": "https://media.rct.uk/sites/default/files/2026-06/05-06-2026%20Opening%20times%20and%20closure%20list.pdf"
+    },
+    "burger": {
+      "title": "Street Burger｜Charing Cross Road",
+      "url": "https://www.gordonramsayrestaurants.com/en/uk/street-burger/locations/charing-cross-road"
+    },
+    "burger-menu": {
+      "title": "Street Burger｜Charing Cross Road 菜單",
+      "url": "https://www.gordonramsayrestaurants.com/en/uk/street-burger/menus/charing-cross-road"
+    },
+    "tesco": {
+      "title": "Tesco Extra｜Olivier Way Cross Point",
+      "url": "https://www.tesco.com/store-locator/coventry/olivier-way"
+    },
+    "tenpin": {
+      "title": "Tenpin Coventry｜開放與預約",
+      "url": "https://www.tenpin.co.uk/our-locations/coventry/"
+    },
+    "nightbus": {
+      "title": "See London By Night｜夏季班次與車程",
+      "url": "https://seelondonbynight.com/frequently-asked-questions.html"
+    },
+    "tfl": {
+      "title": "TfL｜交通狀態（出門前查看）",
+      "url": "https://tfl.gov.uk/tube-dlr-overground/status/"
+    },
+    "heffers": {
+      "title": "Blackwell’s｜Heffers 店址",
+      "url": "https://blackwells.co.uk/bookshop/shops"
+    }
+  },
+  "guides": [
+    {
+      "id": "cambridge-colleges",
+      "day": 2,
+      "title": "劍橋撐篙・學院外觀",
+      "tag": "牛頓蘋果樹在 Trinity，別找錯學院",
+      "must": [
+        "康河船上看國王學院禮拜堂與學院後園；位置由船行路線決定。",
+        "Queens’ College 木造 Mathematical Bridge；不用為了橋另買院內門票。",
+        "King’s Parade 外觀與 St John’s College 大門；跟團步行段先聽導覽。"
+      ],
+      "info": [
+        "9/09（三）正式安排為撐篙與學院外觀，不代表含國王學院禮拜堂入場。船行、碼頭與校內通行待領隊確認。",
+        "手冊將聖約翰學院與牛頓相關景點連寫；Trinity 官方指出蘋果樹在 Trinity Great Gate 外。它不是 Woolsthorpe 的原樹。不要自行改走別的學院。"
+      ],
+      "routes": [
+        [
+          "30 分鐘",
+          "King’s Parade 拍學院正面，再走回約定集合點；不另排付費入內。"
+        ],
+        [
+          "60 分鐘",
+          "外觀散步＋St John’s 大門；若領隊指明路線，再經 Trinity Great Gate 看蘋果樹。不要把船遊時間也塞入這一小時。"
+        ]
+      ],
+      "photo": [
+        "船上以低角度拍拱橋，手機用掛繩，不站起換位。King’s Parade 對側人行道可拍完整立面。",
+        "學院私人庭院、禮拜堂與臨時禁拍處依現場指示；外觀團不要跨越管制線。"
+      ],
+      "buy": [
+        [
+          "學院色系圍巾／校名布章",
+          "Ryder & Amies，22 King’s Parade",
+          "喜歡哪個學院就選那個；不必把一般校徽商品當作學院限定。"
+        ]
+      ],
+      "risks": [
+        "船遊遇雨仍可能出發，帶輕便防水外套。",
+        "不要為找蘋果樹離團；市集 16:00 收攤，先完成市集採買。"
+      ],
+      "sources": [
+        "trinity",
+        "ryder"
+      ],
+      "map": "King’s College Cambridge King’s Parade"
+    },
+    {
+      "id": "cambridge-market",
+      "day": 2,
+      "title": "Cambridge Market・Ryder & Amies",
+      "tag": "先市集，後校園商店",
+      "must": [
+        "Market Hill 中央市集：先繞一圈看當天真正有擺的手作攤。",
+        "Ryder & Amies 的校名服飾、學院圍巾與小配件。",
+        "King’s Parade：把學院外觀與購物接成一圈。"
+      ],
+      "info": [
+        "9/09（三）市集常態 10:00–16:00；攤主可能提早收攤，15:00 自由活動先去市集。",
+        "Ryder & Amies 22 King’s Parade，週一至六 09:00–17:30。當日攤位名單與特定商品庫存未公布。"
+      ],
+      "routes": [
+        [
+          "30 分鐘",
+          "市集 10 分 → Ryder & Amies 15 分 → 回集合方向；先挑一件要買的。"
+        ],
+        [
+          "60 分鐘",
+          "市集 → King’s Parade → Ryder & Amies；只有集合點確定且有餘裕才加書店，結帳排隊另留時間。"
+        ]
+      ],
+      "photo": [
+        "Market Hill 邊緣拍攤棚與教堂背景；King’s Parade 對街拍商店立面。",
+        "拍攤主或作品近照先詢問，不把走道堵住。"
+      ],
+      "buy": [
+        [
+          "校名字樣帽／布章／學院圍巾",
+          "Ryder & Amies，22 King’s Parade",
+          "有明確校園連結，比量產倫敦小物更有此站特色；先試材質與尺寸。"
+        ],
+        [
+          "本地插畫明信片或手作小物",
+          "Cambridge Market，Market Hill 當日攤位",
+          "只在看到作者資訊、喜歡實物時買；沒有可保證營業的指定手作攤。"
+        ]
+      ],
+      "risks": [
+        "16:00 不是保證每攤賣到最後一秒。",
+        "60 分鐘方案包含購物步行，另加你輸入的集合緩衝；不要臨時加付費學院。"
+      ],
+      "sources": [
+        "market",
+        "ryder"
+      ],
+      "map": "Cambridge Market Market Hill Cambridge"
+    },
+    {
+      "id": "warwick",
+      "day": 3,
+      "title": "Warwick Castle 華威城堡",
+      "tag": "先看表演牌，再決定室內順序",
+      "must": [
+        "Great Hall & State Rooms：盔甲、武器與宴會空間。",
+        "The Falconer’s Quest 猛禽秀：若場次與午餐集合相容，優先保留。",
+        "城牆與塔樓視野：只挑一段，不為爬完所有階梯錯過集合。"
+      ],
+      "info": [
+        "9/10（四）位於 2026 猛禽秀演出季（3/28–11/1）；官方常規場次 12:00、15:30。當天停演或調整仍看現場牌。",
+        "Trebuchet 投石機官方列部分日期 10:30、13:30；不能當成 9/10 已保證演出。入園先拍節目牌，當日關門時間以官網月曆為準。"
+      ],
+      "routes": [
+        [
+          "30 分鐘",
+          "Great Hall → 中庭 → 城牆外觀，不加入排隊或表演等待。"
+        ],
+        [
+          "60 分鐘",
+          "先核對下一場秀；可趕上就選一場＋Great Hall，不行就加 Kingmaker。"
+        ],
+        [
+          "90 分鐘",
+          "一場秀＋Great Hall＋一段城牆，最後 10 分 Stables Shop；秀可能佔去半小時以上。"
+        ]
+      ],
+      "photo": [
+        "河岸／草坪以城牆入鏡；猛禽飛行用連拍並把手機留在自己座位範圍。",
+        "室內看各展區禁拍牌；未核實 Dungeon 規則與團票，別把拍照或入場當成已包含。"
+      ],
+      "buy": [
+        [
+          "盔甲／城堡主題磁鐵或導覽冊",
+          "Stables Shop，入口舊馬廄",
+          "全品類集中，離場一次買最省時。"
+        ],
+        [
+          "角色玩具、扮裝與小點",
+          "Courtyard Shop，中庭",
+          "適合送小孩；一般成人紀念首選小物即可。"
+        ],
+        [
+          "小型杯子／磁鐵",
+          "Kingmaker Shop，城堡下方動線",
+          "順路看，不值得特別折返。姓氏紋章攤與 Knights & Princesses 店屬季節性，當日有開再逛。"
+        ]
+      ],
+      "risks": [
+        "午餐在 The Saxon Mill；15:30 猛禽秀很可能已不在園內，不能為它離團。",
+        "城牆樓梯窄且費時；雨天不為照片勉強上塔。姓氏捲軸不保證查得到中文姓氏。"
+      ],
+      "sources": [
+        "warwick-hours",
+        "warwick-shows",
+        "warwick-shops"
+      ],
+      "map": "Warwick Castle Warwick CV34 4QU"
+    },
+    {
+      "id": "coventry-museum",
+      "day": 3,
+      "title": "Coventry Transport Museum",
+      "tag": "先鎖定兩台陸速紀錄車",
+      "must": [
+        "Thrust2：看英國陸速紀錄車的巨大車身與噴射動力配置。",
+        "ThrustSSC：世界第一台突破音速的陸上車輛，側面最能看出雙引擎比例。",
+        "Coventry 自行車到汽車的製造史：Cycle Pioneers 與本地產業脈絡。"
+      ],
+      "info": [
+        "9/10（四）一般開放 10:00–17:00；官方要求最晚 15:00 前抵達以確保入場。午餐或車程延誤時請領隊先聯絡館方。",
+        "模擬器、臨時封區及 Thrust 商品現貨未確認。主展品與付費體驗分開看，團票不一定含模擬器。"
+      ],
+      "routes": [
+        [
+          "30 分鐘",
+          "入口直接向館員問 Record Breakers 最短路線 → Thrust2、ThrustSSC → 出口。"
+        ],
+        [
+          "60 分鐘",
+          "自行車／早期汽車快速通過 → 兩台紀錄車重點看 → 館店 5–10 分。"
+        ],
+        [
+          "90 分鐘",
+          "依正式展線看 Coventry 製造史，兩台紀錄車留 20 分；有剩餘才考慮模擬器。"
+        ]
+      ],
+      "photo": [
+        "ThrustSSC 前側斜拍雙引擎；Thrust2 側拍全長。先退後再用廣角，別跨展品界線。",
+        "展區若有禁拍或體驗設備限制按牌示；不要使用閃光干擾其他人。"
+      ],
+      "buy": [
+        [
+          "Ariel Ordinary Bicycle pin",
+          "Museum Shop，館內對外開放商店",
+          "官方列 Etch & Pin 合作款，與館藏連結強，現貨要問。"
+        ],
+        [
+          "Corgi／Airfix 等交通模型",
+          "Museum Shop",
+          "官方確有此類品牌；同款需比價、檢查盒況。"
+        ],
+        [
+          "Thrust 主題商品",
+          "Museum Shop 詢問櫃台",
+          "未查到零售 Thrust 模型的現貨保證；官方 Thrust goody bag 出現在認養方案，不能當成店售商品。"
+        ]
+      ],
+      "risks": [
+        "不要把時間全部花在前半段，最後才發現沒看到紀錄車。",
+        "The Old Crown 晚餐分店未確認；晚餐前後車程是暫估，導航不先指定分店。"
+      ],
+      "sources": [
+        "transport",
+        "transport-shop"
+      ],
+      "map": "Coventry Transport Museum Millennium Place CV1 1JD"
+    },
+    {
+      "id": "christ-church",
+      "day": 4,
+      "title": "Christ Church Oxford",
+      "tag": "星期五 Great Hall 12:00–14:00 關閉",
+      "must": [
+        "Hall Staircase：哈利波特取景樓梯，別和影城的大廳布景混為一談。",
+        "Great Hall：長桌與肖像，電影大廳的靈感來源；不是原電影棚景。",
+        "Cathedral：看拱頂與彩繪玻璃；禮拜活動可能限制進入。"
+      ],
+      "info": [
+        "9/11（五）夏季一般開放 10:00–17:00；Great Hall 週一至五 12:00–14:00 固定關閉。",
+        "9/05 查核的已知關閉表未另列 9/11 全日關閉；仍以團體票入場時間為準。9/12 Oxford Open Doors 不適用本團 9/11。"
+      ],
+      "routes": [
+        [
+          "30 分鐘",
+          "已入場：樓梯 → 可開放的 Hall 或 Cathedral 擇一；午間不要排隊等 Hall。"
+        ],
+        [
+          "60 分鐘",
+          "票券可通行的樓梯、Hall、Cathedral；Hall 關閉則走 Cloister／Tom Quad 開放路線。"
+        ],
+        [
+          "90 分鐘",
+          "加上 Meadow 邊緣散步；僅限午餐集合允許，不能為等 14:00 延誤 Bicester。"
+        ]
+      ],
+      "photo": [
+        "樓梯往上取拱頂，Hall 由允許停留處拍縱深；Cathedral 保持安靜。",
+        "禁止跨繩、進入學生區；宗教活動與臨時禁拍指示優先，不用閃光。"
+      ],
+      "buy": [
+        [
+          "學院明信片／官方小導覽冊",
+          "Christ Church Visitor Centre／參觀商店",
+          "體積小、紀念性高，當日款式依現貨。"
+        ],
+        [
+          "學院主題文具",
+          "同一參觀商店",
+          "若已買 Cambridge 校園服飾，這站選文具即可，不重複買衣服。"
+        ]
+      ],
+      "risks": [
+        "先問領隊是否能在 12:00 前進 Hall；晚一點到不代表可插隊。",
+        "大行李不要帶進參觀動線；午餐 Gusto 後還有購物，不增加額外付費學院。"
+      ],
+      "sources": [
+        "christ-closure",
+        "christ",
+        "christ-tour"
+      ],
+      "map": "Christ Church Oxford Visitor Centre"
+    },
+    {
+      "id": "bicester",
+      "day": 4,
+      "title": "Bicester Village",
+      "tag": "先完成 3 間目標，再開第二輪",
+      "must": [
+        "先在村內導覽圖標出 Mulberry、Barbour、Molton Brown，按實際店位順走。",
+        "第一輪試尺寸與記價格，最後只回真正想買的一間。",
+        "晚餐與取袋是行程的一部分：不要把 5 小時全算成逛店。"
+      ],
+      "info": [
+        "9/11（五）官方村內營業 09:00–20:00；本團推估 19:00 集合，不能逛到關門才走。各品牌可能有不同安排。",
+        "Hands-free Shopping 官方列 £35；Bag Drop £10。前者協助收取購物袋，後者寄放自己提著的袋子，服務與費率到場再確認。"
+      ],
+      "routes": [
+        [
+          "30 分鐘",
+          "只能挑一間已鎖定商品的店；別開始大範圍比價。"
+        ],
+        [
+          "60 分鐘",
+          "3 間主選，各約 15 分＋步行；有排隊就減少店數。"
+        ],
+        [
+          "90 分鐘",
+          "3 間主選＋一間順路候補；不安排需要候位的正餐。"
+        ],
+        [
+          "120／180／240 分鐘",
+          "120：3 主選＋2–3 候補。180：加餐飲與一次補買。240 以上：兩輪，但固定保留吃飯與取袋時間。"
+        ]
+      ],
+      "photo": [
+        "村內花飾與街景站側邊拍；購物袋照片最後一次拍就好。",
+        "店內商品拍照先詢問；試衣間及其他客人不要拍。"
+      ],
+      "buy": [
+        [
+          "皮夾／小皮件",
+          "Mulberry 專店，村內依官方導覽圖",
+          "選確實喜歡且折扣合理的款式；不要把 Exchange 翻新包當成全新包。"
+        ],
+        [
+          "外套／圍巾",
+          "Barbour 專店，村內",
+          "值得試版型；檢查是否適合台灣氣候，別只看吊牌折扣。"
+        ],
+        [
+          "旅行尺寸沐浴品／護手品",
+          "Molton Brown 專店，村內",
+          "適合小份送禮；液體重、容量影響行李，先聞香與看封膜。"
+        ]
+      ],
+      "risks": [
+        "£30 晚餐代金可用店家、找零與使用方式以旅行社說明為準，不能假設全村收。",
+        "餐飲可找 farmshop／Ottolenghi 等官方列店；時間少先問出餐時間，牛奶過敏出示餐卡。",
+        "取袋另留 20–30 分且事先問實際提取點；結帳、候位與退換貨規則都可能讓低估的 60 分鐘爆表。"
+      ],
+      "sources": [
+        "bicester-hours",
+        "bicester-services",
+        "bicester-bags",
+        "barbour",
+        "mulberry",
+        "molton",
+        "bicester-food"
+      ],
+      "map": "Bicester Village 50 Pingle Drive Bicester"
+    },
+    {
+      "id": "warner",
+      "day": 5,
+      "title": "Warner Bros. Studio Tour London",
+      "tag": "9/12 不在兩檔季節活動期間",
+      "must": [
+        "Great Hall 與實景佈置：入口段跟隨工作人員節奏。",
+        "Platform 9¾ 的 Hogwarts Express 與後段 Diagon Alley。",
+        "Hogwarts 城堡模型：最後一段留時間看燈光與細節。"
+      ],
+      "info": [
+        "9/12（六）：First Year at Hogwarts／25 週年特別內容為 5/7–9/7；Dark Arts 9/16 才開始。兩者都不能列成本團當日保證內容。",
+        "入場依團票，官方建議提前 20 分鐘；寄物處可免費放外套與袋子，不接受食物寄存。影城整體宜留 3–4 小時。"
+      ],
+      "routes": [
+        [
+          "30 分鐘",
+          "只適用「最後剩 30 分」：請工作人員指最短出口動線，優先城堡模型，再快速結帳。不是全館攻略。"
+        ],
+        [
+          "60 分鐘",
+          "只適用已看完前半段：依單向動線看 Diagon Alley／模型＋主店；不要折返找漏拍。"
+        ],
+        [
+          "90 分鐘",
+          "仍不足以完整逛全館；若團體只給這麼短，先確認票券時段與集合，不自行省略必经流程。"
+        ]
+      ],
+      "photo": [
+        "模型區從較高視角拍全景，再靠欄杆側邊拍塔樓；Backlot 戶外與火車月台別停在出口口。",
+        "一般手持照片／影片允許；安檢、開場影院及綠幕區禁止。不可用腳架或專業特殊設備。"
+      ],
+      "buy": [
+        [
+          "魔杖／學院徽章或服飾",
+          "Studio Shop，主店／離場端",
+          "適合最後一次比款；需當日有效票才能進店，先列要買的角色。"
+        ],
+        [
+          "列車主題家居與小物",
+          "Railway Shop，Platform 9¾ 段",
+          "火車元素較有在地動線特色；巧克力蛙與 Peppermint Toads 送禮前查過敏成分。"
+        ],
+        [
+          "聖誕主題飾物",
+          "Forbidden Forest Shop；官網目前以 Christmas Shop 介紹",
+          "部分款不在主店販售，看到喜歡的可在此買；店名／當日貨品依現場。"
+        ]
+      ],
+      "risks": [
+        "Backlot Café 位於中途，午餐自理 £20；先吃飯再走後半，排隊與用餐至少預留 30–45 分。",
+        "官方飲品 Butterbeer 為純素、無酒精；冰淇淋及其他同名食品不等同純素。牛奶過敏仍需問現場配方與交叉接觸，不以品牌名稱判斷。",
+        "綠幕照片另購且排隊；King’s Cross 下午也能拍推車，影城不用每個付費攝影點都排。"
+      ],
+      "sources": [
+        "wb-events",
+        "wb-info",
+        "wb-shops",
+        "wb-food"
+      ],
+      "map": "Warner Bros Studio Tour London Studio Tour Drive Leavesden"
+    },
+    {
+      "id": "kings-cross",
+      "day": 5,
+      "title": "King’s Cross Platform 9¾",
+      "tag": "免費拍照，先判斷隊伍再加入",
+      "must": [
+        "車站公共大廳的穿牆推車，不是在付費月台 9 與 10 之間。",
+        "Harry Potter Shop 的學院用品與火車票風格小物。",
+        "King’s Cross 大廳網狀屋頂，排隊太長就拍建築。"
+      ],
+      "info": [
+        "9/12（六）Harry Potter Shop 官方時段 08:00–20:00；推車拍照依店家公布時段與現場安排，不保證店關後仍可用。",
+        "可用自己的手機免費拍，專業拍攝成品才另付費；不需買火車票進正式月台。"
+      ],
+      "routes": [
+        [
+          "30 分鐘",
+          "先問隊伍約多久；超過 15 分就選店內小物＋大廳照，保住集合時間。"
+        ],
+        [
+          "60 分鐘",
+          "推車排隊只給 30 分上限 → 店內 15 分 → 回集合處；人太多仍可能拍不到。"
+        ]
+      ],
+      "photo": [
+        "推車以側前方角度拍人物＋9¾ 牌；屋頂往上拍避免密集人群。",
+        "不要跨越鐵路閘門找另一個推車；商店內拍特寫先問店員。"
+      ],
+      "buy": [
+        [
+          "名字個人化的學院運動衫",
+          "Harry Potter Shop King’s Cross，推車旁",
+          "官方店頁有個人化展示；先問現場可做款式與取件時間，再付款。"
+        ],
+        [
+          "9¾ 主題票夾／徽章",
+          "同店，King’s Cross 公共大廳",
+          "先找車站元素，與早上 Studio 買的重複就略過；品項以當日現貨為準。"
+        ]
+      ],
+      "risks": [
+        "排到一半離開不等於能保留位置。領隊公布集合後，用計算器重算，別用「快輪到」賭車程。",
+        "個人化商品先確認拼字與退換限制，趕時間不要下需稍後取件的訂單。"
+      ],
+      "sources": [
+        "kings",
+        "kings-hours",
+        "kings-photo"
+      ],
+      "map": "Harry Potter Shop at Platform 9 3/4 King’s Cross London"
+    },
+    {
+      "id": "fortnum",
+      "day": 5,
+      "title": "Fortnum & Mason Piccadilly",
+      "tag": "Ground Floor 一層就很值得",
+      "must": [
+        "Ground Floor 茶區：辨別散茶、茶包、罐裝與補充包。",
+        "同層 Biscuitorium：按送禮對象選小罐餅乾，不被大罐重量拖累。",
+        "新螺旋樓梯與店內陳列：時間多才往其他樓層。"
+      ],
+      "info": [
+        "9/12（六）Piccadilly 店 10:00–20:00。本團正式自由活動是 Fortnum & Mason，17:00–18:30 僅為網站推估。",
+        "Hatchards 187 Piccadilly 週六 09:30–20:00；Burlington Arcade 週六走廊 09:00–19:00，個別店不保證同時段。"
+      ],
+      "routes": [
+        [
+          "30 分鐘",
+          "Ground Floor：Royal Blend／Earl Grey 茶區 → Biscuitorium → 結帳；不排下午茶。"
+        ],
+        [
+          "60 分鐘",
+          "Fortnum 約 35 分 → 隔鄰 Hatchards 15 分 → 回集合方向。"
+        ],
+        [
+          "90 分鐘",
+          "Fortnum 40 分 → Burlington Arcade 15 分 → Piccadilly 街景；Hatchards 與 Arcade 二選一較悠閒。"
+        ]
+      ],
+      "photo": [
+        "Piccadilly 對側拍招牌／窗櫥；店內樓梯以側面呈現曲線，先看現場拍照牌。",
+        "不在狹窄樓梯停拍，不拍櫃員或顧客特寫。"
+      ],
+      "buy": [
+        [
+          "Royal Blend／Earl Grey Classic 小茶罐",
+          "Fortnum Ground Floor 茶區",
+          "茶罐能留作紀念，送禮辨識度高；自己喝可比較補充包單價。"
+        ],
+        [
+          "Piccadilly 系列餅乾或小罐 shortbread",
+          "Ground Floor Biscuitorium",
+          "送禮好看但常含奶；牛奶過敏者不自行試吃，購前看完整標示。"
+        ],
+        [
+          "客製茶調配／標籤",
+          "Ground Floor 茶區服務",
+          "有時間、確定等候長度才值得；30 分方案不排。非食品小禮可問店員茶巾／提袋當日陳列樓層。"
+        ]
+      ],
+      "risks": [
+        "Scotch egg 等生鮮美食多在 Lower Ground，不是 Ground Floor；別跑錯層。",
+        "下午茶需要另外的時間與預約，不適合這段自由活動。",
+        "Burlington 過 19:00 不列入可行方案；購物 60 分鐘必須另外留結帳與集合緩衝。"
+      ],
+      "sources": [
+        "fortnum",
+        "fortnum-hours",
+        "fortnum-floor",
+        "hatchards",
+        "burlington"
+      ],
+      "map": "Fortnum & Mason 181 Piccadilly London"
+    },
+    {
+      "id": "abbey",
+      "day": 6,
+      "title": "Westminster Abbey 西敏寺",
+      "tag": "9/13 星期日一般觀光不開放",
+      "must": [
+        "Coronation Chair 加冕椅：只有正式獲准的觀光入內行程才看得到。",
+        "Poets’ Corner 詩人角：同樣屬室內，星期日不要當作可自由參觀。",
+        "Lady Chapel 扇形拱頂：列作室內備案，不代表本團已確認可入內。"
+      ],
+      "info": [
+        "9/13（日）官方規則為禮拜開放、一般觀光關閉。保留手冊西敏寺站，但預設外觀；需領隊提供特別入場安排才能改為室內。",
+        "禮拜不是繞過觀光管制的方式。沒有觀光入場時，改看西立面、Parliament Square，再跟團到 Big Ben。"
+      ],
+      "routes": [
+        [
+          "30 分鐘",
+          "當日實用版：西敏寺外觀 10 分 → Parliament Square → 依集合點回隊。"
+        ],
+        [
+          "60 分鐘",
+          "當日實用版：外觀＋國會建築與 Westminster Bridge 街景；不可自行排室內。若已確認特別票，再由導覽安排三個必看。"
+        ]
+      ],
+      "photo": [
+        "廣場側拍哥德式立面，拉遠可避開廣角變形。",
+        "一般觀光允許部分室內拍照，但 St Edward 聖壇、St Faith’s Chapel、Diamond Jubilee Galleries 禁拍；不可閃光、錄影或用腳架／自拍棒。禮拜依宗教活動規則，勿拍。"
+      ],
+      "buy": [
+        [
+          "建築圖樣明信片／書籤",
+          "Abbey Shop，Broad Sanctuary 一側",
+          "只在當日有開且集合允許時順買；週日店時另查，不列為必達。"
+        ]
+      ],
+      "risks": [
+        "這是整團行程必須提前確認的落差，不能把買票連結當成星期日通行證。",
+        "室內三項保留作知識與經確認後的備案；實際導航以外觀集合點為準。"
+      ],
+      "sources": [
+        "abbey",
+        "abbey-photo"
+      ],
+      "map": "Westminster Abbey London"
+    },
+    {
+      "id": "westminster",
+      "day": 6,
+      "title": "Big Ben・Houses of Parliament",
+      "tag": "外觀一條短線，不加塔樓排隊",
+      "must": [
+        "Elizabeth Tower／Big Ben：Big Ben 嚴格說是鐘的名稱。",
+        "Palace of Westminster 沿河立面：從橋上看連續哥德式輪廓。",
+        "Parliament Square：將西敏寺與國會相對位置先看懂。"
+      ],
+      "info": [
+        "9/13（日）正式安排是地標巡禮，未提供 Big Ben 塔樓或國會室內票；不要以外觀停留時間推算可入內。",
+        "遊行、管制或橋面人潮可能改變步行動線；過馬路與上船集合時間優先。"
+      ],
+      "routes": [
+        [
+          "30 分鐘",
+          "廣場 → 塔樓外觀 → 橋頭拍照 → 回隊。"
+        ],
+        [
+          "60 分鐘",
+          "加走 Westminster Bridge 一段；不跨到遠方再找捷徑回集合。"
+        ]
+      ],
+      "photo": [
+        "Westminster Bridge 人行道斜拍塔樓和國會；背光時拍輪廓，避開自行車道。",
+        "不得進管制路段／架設妨礙通行設備，警戒與封路指示優先。"
+      ],
+      "buy": [
+        [
+          "一張建築主題明信片",
+          "Westminster Abbey Shop（有開才買）",
+          "這站重點是風景，不值得為量產 London 商品繞路；商店關閉就略過。"
+        ]
+      ],
+      "risks": [
+        "橋頭擁擠，不參與路邊賭球或把手機交給不認識的人。",
+        "Thames 午餐船的實際碼頭未確認，Google Maps 地標連結不是登船位置。"
+      ],
+      "sources": [
+        "parliament",
+        "abbey"
+      ],
+      "map": "Elizabeth Tower Westminster London"
+    },
+    {
+      "id": "thames",
+      "day": 6,
+      "title": "Thames River 午餐遊船",
+      "tag": "碼頭與船公司仍待領隊確認",
+      "must": [
+        "Westminster 河岸地標：是否經過取決於實際航線。",
+        "沿岸橋梁：用移動視角看兩岸建築，不只盯著餐盤。",
+        "Tower Bridge 方向的河景：僅在航線有到時安排拍攝。"
+      ],
+      "info": [
+        "9/13（日）手冊僅列 Thames River lunch cruise，沒有船公司、登船碼頭、下船點或航班。不可把網上任一家時刻表套成本團。",
+        "已研究 City Cruises 官方午餐航班作參考；本團是否搭此公司未確認。下船到 British Museum 車程暫估 25–50 分。"
+      ],
+      "routes": [
+        [
+          "30 分鐘",
+          "指船上可運用的空檔：先用餐，看到地標再拍；不要因拍照錯過團體上下船。"
+        ],
+        [
+          "60 分鐘",
+          "指船上空檔：用餐＋經允許到戶外甲板看河景；這不是可自行縮短的航程。"
+        ]
+      ],
+      "photo": [
+        "窗邊手機貼近玻璃減反光；若可上戶外甲板，斜拍橋與船尾水紋。",
+        "甲板若關閉不要推門，勿擋服務動線或拍其他乘客特寫。"
+      ],
+      "buy": [
+        [
+          "不必加購船上一般紀念品",
+          "實際船上商店／服務台（若有）",
+          "沒有已確認值得指定購買的限定品，把預算留給博物館與 Fortnum。"
+        ]
+      ],
+      "risks": [
+        "上船前先上廁所、記住集合時間；是否有戶外甲板與自由走動要問船員。",
+        "網站地圖只標河岸位置參考；未確認碼頭前不要自己導航離團。午餐牛奶／牛肉限制需提早告知。"
+      ],
+      "sources": [
+        "cruise"
+      ],
+      "map": "River Thames Westminster London"
+    },
+    {
+      "id": "british-museum",
+      "day": 6,
+      "title": "British Museum 大英博物館",
+      "tag": "30 分先看 Rosetta；60 分才加樓上",
+      "must": [
+        "Rosetta Stone，Room 4：先找刻有三種文字的石碑。",
+        "Parthenon Sculptures，Room 18：看雕刻敘事與長廊比例。",
+        "Great Court：離場前抬頭看玻璃屋頂，記住回集合方向。"
+      ],
+      "info": [
+        "9/13（日）常態 10:00–17:00；安檢與臨時閉廳要以當日入口公告為準。此頁時間攻略是入館後計時。",
+        "Sutton Hoo 在 Room 41；官方宣布部分 Sutton Hoo 文物借往法國，9/13 頭盔等是否仍在展未獲逐件確認。先問館員，不能保證看見原件。"
+      ],
+      "routes": [
+        [
+          "30 分鐘",
+          "Room 4 Rosetta 10 分 → Room 18 10 分 → Great Court 5 分；其餘留移動。遇封廳立即改短線。"
+        ],
+        [
+          "60 分鐘",
+          "Rosetta → Parthenon → 樓上 Egyptian galleries 62／63 或 Room 41 擇一 → Great Court；樓上只挑一區。"
+        ],
+        [
+          "90 分鐘",
+          "確認展品後再加 Sutton Hoo；樓上兩區都有開、腳程許可才看，商店仍留 10 分。"
+        ]
+      ],
+      "photo": [
+        "Rosetta 由側前方避開正面人群；Great Court 從入口側仰拍圓形閱覽室與玻璃頂。",
+        "一般常設展依現場允許作私人拍攝；特展、借展或禁拍牌優先。展櫃不要閃光，別跨護欄。"
+      ],
+      "buy": [
+        [
+          "Rosetta Stone 圖案提袋／書籤",
+          "Great Court 周邊 Museum Shop；問館員當日陳列",
+          "官方網店可查提袋款，實體庫存不保證；小物比易碎大型複製品好帶。"
+        ]
+      ],
+      "risks": [
+        "30／60 分不含排安檢、寄物或團體講解，集合剩不到一小時就減樓上。",
+        "不要為未確認在展的 Sutton Hoo 頭盔穿越全館；Bayeux 類特展另需票與時間，短線不加入。",
+        "先確認領隊集合是在 Great Court 還是外面車道，兩者需要不同回程緩衝。"
+      ],
+      "sources": [
+        "bm",
+        "bm-route",
+        "bm-sutton",
+        "bm-loan",
+        "bm-shop"
+      ],
+      "map": "British Museum Great Russell Street London"
+    },
+    {
+      "id": "jrc",
+      "day": 6,
+      "title": "JRC Global Buffet Wembley",
+      "tag": "自助餐先問過敏原，再選餐",
+      "must": [
+        "先定位可提供過敏原資訊的服務員。",
+        "確認熟食區當日雞／魚／蔬菜選擇與配方。",
+        "吃完到 London Designer Outlet 出口辨認遊覽車集合點。"
+      ],
+      "info": [
+        "9/13（日）Wembley 官方營業 12:00–21:30；團體用餐時段依旅行社。",
+        "地址是 London Designer Outlet Centre, Wembley Park Boulevard, HA9 0FD；不要導航到別的 JRC 分店。"
+      ],
+      "routes": [
+        [
+          "30 分鐘",
+          "問過敏原 → 選一盤確定可吃的 → 用餐 → 上廁所、回集合。"
+        ],
+        [
+          "60 分鐘",
+          "正常用餐與休息；先確認領隊是否允許離開餐廳再安排商場散步。"
+        ]
+      ],
+      "photo": [
+        "餐廳外可拍 Wembley 街景；不站在其他客人取餐路線。",
+        "拍餐檯先詢問店員，不拍用餐者特寫。"
+      ],
+      "buy": [
+        [
+          "今晚不用特別採購",
+          "JRC 餐廳／LDO",
+          "把時間與行李額度留給既定購物；不能因晚餐在商場就預設店家仍開。"
+        ]
+      ],
+      "risks": [
+        "共用夾具可能交叉接觸，純素標示也不能取代過敏詢問。",
+        "夜間計算器預設已回 Park Royal 才出發；若直接從 Wembley 出門，須重估往返，不照搬結果。"
+      ],
+      "sources": [
+        "jrc"
+      ],
+      "map": "JRC Global Buffet Wembley London Designer Outlet HA9 0FD"
+    },
+    {
+      "id": "st-james",
+      "day": 7,
+      "title": "St James’s Park・換崗前散步",
+      "tag": "Blue Bridge 好拍，別等下午餵鵜鶘",
+      "must": [
+        "Blue Bridge 向西看白金漢宮。",
+        "同橋向東看 Horse Guards 一帶的天際線與湖景。",
+        "沿湖看鵜鶘與水鳥，保持距離。"
+      ],
+      "info": [
+        "9/14（一）公園散步搭配換崗；官方鵜鶘例行餵食約 14:30，本團早上通常碰不到，不應為此延誤皇宮入內。",
+        "換崗受天候、活動與保安影響；當朝看 Household Division 月曆。開始時間附近約 10:45–11:00，不把演出當成保證。"
+      ],
+      "routes": [
+        [
+          "30 分鐘",
+          "Blue Bridge 兩向各拍一張 → 沿原路靠近宮殿集合方向。"
+        ],
+        [
+          "60 分鐘",
+          "加湖畔短圈與看鳥，再提前站好換崗觀賞位置；不要繞完整座公園。"
+        ]
+      ],
+      "photo": [
+        "Blue Bridge 西側取宮殿＋湖，東側取白色建築倒影；側移半步避開欄杆前人群。",
+        "不得靠近或餵鳥；管制時不伸自拍棒過人群／護欄。"
+      ],
+      "buy": [
+        [
+          "今天公園不必買東西",
+          "公園內餐飲點（營業依現場）",
+          "沒有需要特地排隊的限定商品；把紀念品預算留 Garden Shop。"
+        ]
+      ],
+      "risks": [
+        "St James’s Park 到 Buckingham Palace 約走 10–15 分，這段不是遊覽車。",
+        "想看換崗就提前到領隊指定位置；人群一擠可能無法從一側移到另一側。"
+      ],
+      "sources": [
+        "park",
+        "pelican",
+        "guard"
+      ],
+      "map": "Blue Bridge St James’s Park London"
+    },
+    {
+      "id": "buckingham",
+      "day": 7,
+      "title": "Buckingham Palace State Rooms",
+      "tag": "2026 White Drawing Room 關閉",
+      "must": [
+        "Throne Room：王座與紅金色裝飾。",
+        "Picture Gallery：繪畫收藏與今年參觀路線。",
+        "Grand Staircase：樓梯、肖像與儀式空間。"
+      ],
+      "info": [
+        "9/14（一）在夏季開放期：9/3–9/27 週四至一 09:30–18:30，最後入場 16:15。團體票時段及前往機場的集合時間優先。",
+        "2026 正式施工公告：White Drawing Room 不開放；Ballroom、Music Room 與 Bow Room 部分區域被圍板遮擋，但仍經過。不要沿用往年完整房間清單。"
+      ],
+      "routes": [
+        [
+          "30 分鐘",
+          "不足以完整入內：若只剩半小時還沒進場，立刻找領隊處理，不把這當成可行快速通關。"
+        ],
+        [
+          "60 分鐘",
+          "只適用已在參觀後段時：照單向路線離場，縮短 café／購物；不能保證一小時看完全宮。"
+        ],
+        [
+          "90 分鐘",
+          "仍比官方建議 2–2.5 小時短；入場前需確認行程節奏，別擅自壓縮後續機場報到。"
+        ]
+      ],
+      "photo": [
+        "戶外宮殿正面在 Victoria Memorial 側取全景；花園允許區域再拍個人照片。",
+        "State Rooms 室內禁止拍照／錄影；手机收好。不要因其他人偷拍跟著拍。"
+      ],
+      "buy": [
+        [
+          "皇家圖樣茶巾／小磁鐵",
+          "Garden Shop，參觀尾端花園",
+          "好帶且有正式皇家收藏連結；瓷器重又易碎，真的喜歡才買。"
+        ],
+        [
+          "茶與皇家圖樣小禮盒",
+          "同一 Garden Shop",
+          "看成分、尺寸與價格；下午還要搭機，最後 10 分不適合慢慢挑大禮盒。"
+        ]
+      ],
+      "risks": [
+        "入口與 State Rooms 開始處沒有公廁；厕所、育嬰設施在花園尾端，入場前先處理。",
+        "Garden Café 在西露台、State Rooms 後段，不是入場前可先去的餐廳；沒有餘裕就跳過。",
+        "單向參觀，花園出口還要走約 0.5 公里；與入口不同，先確認遊覽車接人位置。",
+        "大於 45×20×30 公分行李不允許；後背包不得背著走展間，按工作人員要求手提／寄放。"
+      ],
+      "sources": [
+        "palace",
+        "palace-info",
+        "palace-closure"
+      ],
+      "map": "Buckingham Palace London"
+    },
+    {
+      "id": "street-burger",
+      "day": 7,
+      "title": "Street Burger – Charing Cross Road",
+      "tag": "24–28 Charing Cross Road，別導航錯店",
+      "must": [
+        "先確認團餐套餐能否換成非牛肉、無奶內容。",
+        "Vegan Smash 為官方菜單候選，仍問配方與共用煎台。",
+        "午餐後依集合安排回白金漢宮，街上只做短暫拍照。"
+      ],
+      "info": [
+        "9/14（一）官方店時 11:30–22:00；本團團餐時間以領隊為準。",
+        "正式分店為 Charing Cross Road，24–28 Charing Cross Road, WC2H；不是任一家 Gordon Ramsay。"
+      ],
+      "routes": [
+        [
+          "30 分鐘",
+          "只夠快速團餐流程；入座先說飲食限制，不自行出去加購。"
+        ],
+        [
+          "60 分鐘",
+          "用餐、洗手間與餐廳外街景；要離店散步先確認回 Palace 的集合時間。"
+        ]
+      ],
+      "photo": [
+        "招牌對側人行道拍外觀即可；附近劇院街景順路拍。",
+        "餐廳內拍攝先詢問，不拍其他用餐者。"
+      ],
+      "buy": [
+        [
+          "不需特別買周邊",
+          "Street Burger Charing Cross Road",
+          "這站價值是用餐，沒有已確認值得特地排隊的限定周邊。"
+        ]
+      ],
+      "risks": [
+        "不吃牛肉＋牛奶過敏要分開說明；去起司不代表麵包與醬汁無奶。",
+        "團餐是否能換菜未確認，提前讓領隊協調，別等餐上桌才說。"
+      ],
+      "sources": [
+        "burger",
+        "burger-menu"
+      ],
+      "map": "Gordon Ramsay Street Burger 24-28 Charing Cross Road London"
+    }
+  ],
+  "highlights": [
+    "christ-church",
+    "abbey",
+    "buckingham"
+  ],
+  "uncertain": [
+    "D2 撐篙船行、碼頭與學院通行；手冊牛頓蘋果樹的實際停留點。",
+    "D3 The Old Crown 晚餐分店；Warwick 9/10 表演與關門時間，交通博物館模擬器及商店現貨。",
+    "D4 Christ Church 團票是否在 Hall 午間關閉前；代金可用餐廳與取袋流程。",
+    "D5 影城團票時段、個人化商品取件與現貨；不含已於 9/07 結束的特別活動。",
+    "D6 西敏寺星期日是否有特別安排；午餐船公司、上下船碼頭與航班；Sutton Hoo 個別借展品。",
+    "D7 換崗是否照常、皇宮團票時間與花園出口接車點；Heathrow 航廈、登機門與實際登機截止。",
+    "所有自由時段、交通時間均為推估；沒有即時路況、隊伍、店家庫存或球道／巴士票可售狀態。"
+  ],
+  "method": [
+    "正式行程：逐日依 9/04 旅行社手冊列出，沒有公布的集合時間不自行填成官方。",
+    "官方情報：每個景點攻略附來源與查核日期；一般營業時段不等於團體預約或即時開放保證。",
+    "路線與時間：依使用者提供的保守車程與可行走法推估，不是即時導航。英國日期以 Europe/London 處理。",
+    "自由時間：先扣你設定的額外緩衝，再與包含去程、活動、回程的選項比對；夜間巴士另外核對整個班次。"
+  ]
+}

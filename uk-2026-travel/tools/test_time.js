@@ -1,0 +1,25 @@
+'use strict';
+const assert = require('node:assert/strict');
+const { windowResult, evaluateOption } = require('../assets/app.js');
+const { options } = require('../assets/itinerary.json');
+let count = 0;
+function test(label, check) { check(); count++; console.log('PASS ' + label); }
+const w = (a,b,buffer=10,nd=0,ed=0) => windowResult(a,b,nd,ed,buffer);
+test('D2 15:00–16:00 minus 10 = 50; 45 minute route is tight',()=>{const x=w('15:00','16:00');assert.equal(x.available,50);assert.equal(evaluateOption(options.market45,x).level,'tight');assert.equal(evaluateOption(options.market60,x).level,'no');});
+test('Explicit midnight crossing = 50 usable, never 23 extra hours',()=>assert.equal(w('23:30','00:30',10,0,1).available,50));
+test('Midnight without next-day selection is expired',()=>assert.equal(w('23:30','00:30').available,0));
+test('Already after midnight preserves the date offset',()=>assert.equal(w('00:10','00:45',10,1,1).available,25));
+test('Past and equal deadlines are zero',()=>{assert.equal(w('16:10','16:00').available,0);assert.equal(w('16:00','16:00').available,0);});
+test('Buffers consume the complete remaining window',()=>assert.equal(w('15:50','16:00',20).available,0));
+test('Invalid inputs never produce NaN recommendations',()=>{for(const args of [['','16:00',10],['99:00','16:00',10],['24:00','16:00',10],['15:00','16:00',-1],['15:00','16:00',121],['15:00','16:00',''],['15:00','16:00',1.5]])assert.equal(w(...args).valid,false);});
+test('Market closing overrides enough total time',()=>assert.equal(evaluateOption(options.market15,w('15:55','17:00')).level,'no'));
+test('Exactly at closing is tight even if the meeting is later',()=>assert.equal(evaluateOption(options.market15,w('15:50','17:00')).level,'tight'));
+test('Burlington closes before the entire loop can finish',()=>assert.equal(evaluateOption(options.fortnum90,w('18:00','20:30')).level,'no'));
+test('Next-day Tesco cannot reuse yesterday’s midnight closing',()=>assert.equal(evaluateOption(options.tesco,w('00:10','02:10',15,1,1)).level,'no'));
+test('Night outing includes BOTH hotel transfers',()=>assert.equal(evaluateOption(options.tower,w('21:15','23:30',20)).level,'no'));
+test('D6 20:15 night bus cannot finish and return by 23:30',()=>assert.equal(evaluateOption(options.nightbus,w('20:15','23:30',20)).label,'✕ 來不及'));
+test('Earlier start can catch a feasible full night-bus roundtrip',()=>{const r=evaluateOption(options.nightbus,w('19:00','23:30',20));assert.notEqual(r.level,'no');assert.ok(r.reason.includes('20:30'));});
+test('Next-day return can unlock later bus, last departure enforced',()=>{assert.notEqual(evaluateOption(options.nightbus,w('21:00','01:00',20,0,1)).level,'no');assert.equal(evaluateOption(options.nightbus,w('22:00','03:00',20,0,1)).label,'✕ 來不及');});
+test('Wembley advice has a 21:00 departure cutoff',()=>assert.equal(evaluateOption(options.wembley,w('21:00','23:59',20)).level,'no'));
+test('D7 meal includes walks and gate buffer',()=>{assert.equal(w('18:30','20:15',20).available,85);assert.equal(evaluateOption(options['airport-meal'],w('20:00','20:15',20)).level,'no');});
+console.log(`${count} boundary tests passed`);

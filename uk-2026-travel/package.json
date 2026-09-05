@@ -1,0 +1,10 @@
+{
+  "name": "ian-uk-travel-field-guide",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node tools/serve.cjs",
+    "build": "python3 tools/build_site.py",
+    "verify": "python3 tools/verify_site.py && node tools/test_time.js"
+  }
+}
