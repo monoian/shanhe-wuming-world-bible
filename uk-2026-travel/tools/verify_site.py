@@ -7,12 +7,16 @@ from urllib.parse import urlsplit, parse_qs, unquote
 R=Path(__file__).resolve().parents[1]
 class Page(HTMLParser):
     def __init__(self,path):
-        super().__init__();self.ids=[];self.links=[];self.scripts=[];self.forms=0;self.guides=0;self.coach=0;self.walk=0;self.iframes=0
+        super().__init__();self.ids=[];self.links=[];self.scripts=[];self.forms=0;self.guides=0;self.coach=0;self.walk=0;self.iframes=0;self.dialogs=0;self.bottom=[];self.in_bottom=False
         self.text=path.read_text();self.feed(self.text)
     def handle_starttag(self,tag,attrs):
         a=dict(attrs);c=a.get('class','').split()
         if 'id' in a:self.ids.append(a['id'])
-        if tag=='a':self.links.append(a.get('href',''))
+        if tag=='a':
+            self.links.append(a.get('href',''))
+            if self.in_bottom:self.bottom.append(a.get('href',''))
+        if tag=='nav' and 'bottom-nav' in c:self.in_bottom=True
+        if tag=='dialog':self.dialogs+=1
         if tag=='script':self.scripts.append(a.get('src',''))
         if tag=='form':self.forms+=1
         if tag=='iframe':self.iframes+=1
@@ -23,6 +27,8 @@ class Page(HTMLParser):
         if tag in ('script','img','link'):
             url=a.get('src',a.get('href',''))
             if url and not urlsplit(url).scheme:assert (R/unquote(urlsplit(url).path)).exists(),url
+    def handle_endtag(self,tag):
+        if tag=='nav':self.in_bottom=False
 pages={p.name:Page(p) for p in R.glob('*.html') if not p.name.startswith('.')}
 assert len(pages)==17,len(pages)
 map_links=set();internal=0
@@ -30,6 +36,8 @@ for name,p in pages.items():
     assert len(p.ids)==len(set(p.ids)),(name,'duplicate IDs')
     assert p.scripts==['assets/app.js?v='+json.loads((R/'assets/itinerary.json').read_text())['version']],(name,p.scripts)
     assert p.iframes==0,(name,'unexpected iframe')
+    assert len(p.bottom)==4 and not any('free-time' in link for link in p.bottom),(name,p.bottom)
+    assert p.dialogs==(1 if p.guides else 0),(name,'one shared guide dialog')
     for old in ['time-tool','time-windows','clean-view','site-clean-heading','Overpass','leaflet','British Motor Museum','Regent Street']:
         assert old not in p.text,(name,old)
     for link in p.links:

@@ -190,6 +190,22 @@ main > section { margin-top: 34px; }
 .sources > summary span { display: inline-block; margin-left: 8px; }
 .sources > div { display: flex; flex-direction: column; align-items: flex-start; }
 .sources a { display: flex; align-items: center; min-height: 44px; padding: 8px 0; }
+/* A single shared guide dialog keeps the main itinerary at its current position. */
+body.guide-open { position: fixed; width: 100%; overflow: hidden; }
+.guide-dialog { width: 760px; max-width: calc(100% - 24px); height: calc(100vh - 32px); height: calc(100dvh - 32px); max-height: 900px; margin: auto; padding: 0; border: 1px solid var(--line); border-radius: 20px; background: var(--paper); color: var(--ink); overflow: hidden; box-shadow: 0 18px 70px #10292350; }
+.guide-dialog:not([open]) { display: none; }
+.guide-dialog[open] { display: flex; flex-direction: column; }
+.guide-dialog::backdrop { background: #102923a6; }
+.dialog-header { flex: 0 0 auto; display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; padding: 16px 18px; background: #edf3eb; border-bottom: 1px solid #cbdacf; }
+.dialog-header > div { min-width: 0; }
+.dialog-header .eyebrow { margin-bottom: 4px; }
+.dialog-header h2 { font-size: 1.15rem; overflow-wrap: anywhere; }
+.dialog-close { flex: 0 0 auto; min-width: 90px; display: flex; flex-direction: column; gap: 0; padding: 8px 12px; }
+.dialog-close small { font-weight: 400; }
+.dialog-body { flex: 1 1 auto; min-height: 0; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; background: white; }
+.dialog-body .guide-content { padding-left: 18px; padding-right: 18px; }
+.dialog-footer { flex: 0 0 auto; padding: 12px 16px max(12px, env(safe-area-inset-bottom)); background: white; border-top: 1px solid var(--line); }
+.dialog-footer .button { width: 100%; }
 .hotel-card { background: white; border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; margin-top: 18px; }
 .hotel-card h2 { overflow-wrap: anywhere; margin: 4px 0 12px; }
 .hotel-address { color: var(--muted); }
@@ -227,7 +243,7 @@ main > section { margin-top: 34px; }
 footer { max-width: 960px; margin: auto; padding: 26px 28px calc(105px + env(safe-area-inset-bottom)); color: var(--muted); font-size: .875rem; border-top: 1px solid var(--line); }
 footer p + p { margin-top: 5px; }
 footer > a { display: inline-flex; align-items: center; min-height: 44px; margin-top: 8px; }
-.bottom-nav { position: fixed; z-index: 10; bottom: 0; left: 0; right: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); border-top: 1px solid #cedbd0; background: #fffffff5; padding: 5px max(8px, calc((100vw - 940px) / 2)) calc(5px + env(safe-area-inset-bottom)); }
+.bottom-nav { position: fixed; z-index: 10; bottom: 0; left: 0; right: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid #cedbd0; background: #fffffff5; padding: 5px max(8px, calc((100vw - 940px) / 2)) calc(5px + env(safe-area-inset-bottom)); }
 .bottom-nav a { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 58px; padding: 4px 2px; border-radius: 10px; text-decoration: none; font-size: .875rem; color: #53655d; line-height: 1.45; }
 .bottom-nav a > span { font-size: 1.3rem; line-height: 1.3; }
 .bottom-nav a[aria-current="page"] { background: #e7efe5; color: #154b37; font-weight: 750; }

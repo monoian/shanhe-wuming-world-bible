@@ -203,15 +203,75 @@
     const initial = tabs.findIndex(t => t.dataset.kind === requested);
     setMode(initial < 0 ? 0 : initial, false);
   }
-  function revealAnchor() {
-    let id;
-    try { id = decodeURIComponent(location.hash.slice(1)); } catch (_) { return; }
-    const target = document.getElementById(id);
-    if (target && target.tagName === 'DETAILS') { target.open = true; requestAnimationFrame(() => target.scrollIntoView({ block: 'start' })); }
+  const guideDialog = document.getElementById('guide-dialog');
+  const canOpenGuide = guideDialog && typeof guideDialog.showModal === 'function';
+  let guideView = null;
+  function openGuide(card, trigger) {
+    if (!canOpenGuide || guideDialog.open || guideView) return;
+    const content = card.querySelector('.guide-content');
+    if (!content) return;
+    guideView = { card, content, trigger, y: window.scrollY, x: window.scrollX, bodyTop: document.body.style.top };
+    // Move the existing content instead of duplicating the six-section guide.
+    document.body.style.top = `-${guideView.y}px`;
+    document.body.classList.add('guide-open');
+    guideDialog.querySelector('#guide-dialog-title').textContent = card.querySelector('.guide-title').textContent;
+    guideDialog.querySelector('.dialog-body').append(content);
+    guideDialog.showModal();
+    guideDialog.querySelector('.dialog-body').scrollTop = 0;
   }
-  revealAnchor();
-  window.addEventListener('hashchange', revealAnchor);
-  document.querySelectorAll('a[href^="#"]').forEach(a => a.addEventListener('click', () => setTimeout(revealAnchor, 0)));
+  function restoreGuidePosition() {
+    if (!guideView) return;
+    const view = guideView;
+    view.card.append(view.content);
+    document.body.classList.remove('guide-open');
+    document.body.style.top = view.bodyTop;
+    window.scrollTo(view.x, view.y);
+    const focusTarget = view.trigger || document.querySelector('.page-intro h1');
+    if (focusTarget) focusTarget.focus({ preventScroll: true });
+    guideView = null;
+  }
+  function closeGuide() {
+    guideDialog.close();
+    // Restore in the same interaction, without waiting for the queued close event.
+    restoreGuidePosition();
+  }
+  if (canOpenGuide) {
+    guideDialog.querySelectorAll('[data-close-guide]').forEach(button => button.addEventListener('click', closeGuide));
+    guideDialog.addEventListener('cancel', event => { event.preventDefault(); closeGuide(); });
+    guideDialog.addEventListener('click', event => {
+      if (event.target !== guideDialog) return;
+      const rect = guideDialog.getBoundingClientRect();
+      if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) closeGuide();
+    });
+    guideDialog.addEventListener('close', () => { if (!guideDialog.open) restoreGuidePosition(); });
+  }
+  function anchorTarget(hash) {
+    try { return document.getElementById(decodeURIComponent(hash.slice(1))); } catch (_) { return null; }
+  }
+  function revealAnchor(initial = false) {
+    const target = anchorTarget(location.hash);
+    if (!target) return;
+    if (canOpenGuide && target.classList.contains('guide-card')) {
+      // A shared link opens the same guide, with the day's main itinerary behind it.
+      const url = new URL(location.href); url.hash = ''; history.replaceState(history.state, '', url);
+      if (initial) window.scrollTo(0, 0);
+      openGuide(target, null);
+    } else if (target.tagName === 'DETAILS') {
+      target.open = true; requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
+    }
+  }
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    const target = anchorTarget(link.getAttribute('href'));
+    if (canOpenGuide && target && target.classList.contains('guide-card')) {
+      link.setAttribute('aria-haspopup', 'dialog');
+      link.addEventListener('click', event => {
+        if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+        event.preventDefault(); openGuide(target, link);
+      });
+    } else link.addEventListener('click', () => setTimeout(() => revealAnchor(), 0));
+  });
+  revealAnchor(true);
+  window.addEventListener('hashchange', () => revealAnchor());
   const checks = [...document.querySelectorAll('[data-check]')];
   if (checks.length) {
     const key = 'ian-uk-checklist-2026', count = document.getElementById('check-count'), storageNote = document.getElementById('storage-note');
