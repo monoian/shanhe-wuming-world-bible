@@ -82,3 +82,7 @@ npm run dev -- --host 0.0.0.0 --port 4173 --strictPort
 - 攻略內容節點移入視窗，關閉後移回原處，不複製攻略、不加第二支 JS。每個有攻略的日頁只有一個共用 dialog。
 - 從首頁提醒或攻略索引的景點深層連結進入，也使用相同視窗；關閉回當日主頁。無 dialog 支援時保留靜態攻略連結。
 - 修改前備份：`backup-uk-travel-before-guide-dialog-20260905`，起點 `596e2e658a0846bebaeb407df48809fa6e96d342`。
+
+## 夜間模式 · group-20260905-3
+
+`setMode`同時控制當前時段選項及`data-day-only`攻略／照片。夜間與機場模式隱藏白天建議；白天Tab或「景點怎麼逛」可恢復。夜間切日期、前後一天會保留`mode=night`（限D2–D7有自由時間介面的日期）。修改前備份為`backup-uk-travel-before-night-filter-20260905`，起點`1f39851731dd7b46e5163bc6193c6886df9f759f`。

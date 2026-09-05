@@ -83,8 +83,14 @@
       const url = new URL(location.href); url.searchParams.set('day', String(n)); history.replaceState(null, '', url);
     });
   }
+  function dayLink(n, kind) {
+    const hasFreeTime = n >= Number(trip.firstFree) && n <= Number(trip.lastFree);
+    return `day-${n}.html` + (kind === 'night' && hasFreeTime ? '?mode=night#free-time' : '');
+  }
   const daySelect = document.querySelector('[data-day-select]');
-  if (daySelect) daySelect.addEventListener('change', () => { location.href = `day-${daySelect.value}.html`; });
+  if (daySelect) daySelect.addEventListener('change', () => {
+    location.href = dayLink(Number(daySelect.value), new URLSearchParams(location.search).get('mode'));
+  });
 
   const section = document.querySelector('.free-section');
   if (section) {
@@ -143,8 +149,18 @@
       infos.forEach((x, j) => { x.hidden = j !== index; });
       optionLists.forEach((x, j) => { x.hidden = j !== index; });
       panel.setAttribute('aria-labelledby', tabs[index].id);
+      const kind = tabs[index].dataset.kind;
+      section.dataset.activeMode = kind;
+      document.querySelectorAll('[data-day-only]').forEach(block => { block.hidden = kind !== 'day'; });
+      section.querySelector('[data-free-title]').textContent = kind === 'night' ? '今晚還有多少自由時間？' : kind === 'airport' ? '登機前還有多少自由時間？' : '今天還有多少自由時間？';
+      section.querySelector('[data-free-intro]').textContent = kind === 'night' ? '填入希望回飯店的時間，只看今晚適合的安排。' : kind === 'airport' ? '依領隊與登機證的截止時間，安排機場內活動。' : '填入領隊集合時間，看現在還能去哪。';
+      document.querySelectorAll('.page-turn a').forEach(link => {
+        const match = new URL(link.href).pathname.match(/day-(\d+)\.html$/);
+        if (match) link.href = dayLink(Number(match[1]), kind);
+      });
       const win = JSON.parse(infos[index].dataset.window);
       disabled = win.disabled;
+      if (disabled) section.querySelector('[data-free-intro]').textContent = kind === 'night' ? '今晚搭機返台，請切換「機場自由時間」。' : '本時段未安排自由活動，請切換其他時段。';
       form.hidden = disabled;
       const s = states.get(index);
       form.elements.now.value = s ? s.now : win.start;
@@ -199,6 +215,11 @@
       event.preventDefault(); setMode(next, true);
       location.hash = 'free-time'; section.scrollIntoView({ block: 'start' });
     }));
+    const dayGuideLink = document.querySelector('.jump-links a[href="#field-guide"]');
+    if (dayGuideLink) dayGuideLink.addEventListener('click', event => {
+      event.preventDefault(); setMode(0, true);
+      location.hash = 'field-guide'; document.getElementById('field-guide').scrollIntoView({ block: 'start' });
+    });
     const requested = new URLSearchParams(location.search).get('mode');
     const initial = tabs.findIndex(t => t.dataset.kind === requested);
     setMode(initial < 0 ? 0 : initial, false);
